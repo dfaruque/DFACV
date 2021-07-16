@@ -3,17 +3,16 @@
 <fieldset>
     <legend>Experience (7+ Years)</legend>
     <ul>
-        <li>
-            <h4>Senior Software Engineer <small>| TechnoVista Limited, Dhaka | 2018 - Present</small></h4>
-            <div></div>
-        </li>
-        <li>
-            <h4>Software Engineer <small>| TechnoVista Limited, Dhaka | 2016 - 2018</small></h4>
-            <div></div>
-        </li>
-        <li>
-            <h4>Software Developer <small>| Unisoft Systems Limited, Dhaka | 2014 - 2016</small></h4>
-            <div></div>
-        </li>
+        @foreach (var item in Model.Experiences)
+        {
+            <li>
+                <h4>@item.Title <small>| @item.CompanyName, @item.City | @item.StartYear - @item.EndYear</small></h4>
+                <div></div>
+            </li>
+        }
     </ul>
 </fieldset>
+
+@code{
+    Models.CVModel Model = new Models.CVModel();
+}

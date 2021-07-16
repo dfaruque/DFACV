@@ -10,12 +10,12 @@ namespace DFACV.Models
         public string Name { get; set; }
         public string FunctionTitle { get; set; }
         public string Profile { get; set; }
-        List<ExperienceModel> Experiences { get; set; }
-        List<EducationModel> Educations { get; set; }
-        List<SkillModel> Skills { get; set; }
-        List<ProjectModel> Projects { get; set; }
-        List<ContactModel> Contacts { get; set; }
-        List<SocialMediaModel> SocialMedias { get; set; }
+        public List<ExperienceModel> Experiences { get; set; }
+        public List<EducationModel> Educations { get; set; }
+        public List<SkillModel> Skills { get; set; }
+        public List<ProjectModel> Projects { get; set; }
+        public List<ContactModel> Contacts { get; set; }
+        public List<SocialMediaModel> SocialMedias { get; set; }
 
         public CVModel()
         {

@@ -10,5 +10,6 @@ namespace DFACV.Models
         public string Name { get; set; }
         public string FunctionTitle { get; set; }
         List<ExperienceModel> Experiences { get; set; }
+        List<EducationModel> Educations { get; set; }
     }
 }

@@ -13,5 +13,6 @@ namespace DFACV.Models
         List<EducationModel> Educations { get; set; }
         List<SkillModel> Skills { get; set; }
         List<ContactModel> Contacts { get; set; }
+        List<SocialMediaModel> SocialMedias { get; set; }
     }
 }

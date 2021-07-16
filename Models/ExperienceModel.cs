@@ -9,8 +9,9 @@ namespace DFACV.Models
     {
         public string Title { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime? EndDate { get; set; }
         public string CompanyName { get; set; }
+        public string CompanyWebUrl { get; set; }
         public string City { get; set; }
         public string Description { get; set; }
     }

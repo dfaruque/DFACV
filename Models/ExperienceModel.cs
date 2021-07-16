@@ -14,5 +14,8 @@ namespace DFACV.Models
         public string CompanyWebUrl { get; set; }
         public string City { get; set; }
         public string Description { get; set; }
+
+        public int StartYear => StartDate.Year;
+        public string EndYear => EndDate?.Year.ToString() ?? "Present";
     }
 }

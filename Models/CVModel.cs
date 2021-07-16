@@ -12,5 +12,6 @@ namespace DFACV.Models
         List<ExperienceModel> Experiences { get; set; }
         List<EducationModel> Educations { get; set; }
         List<SkillModel> Skills { get; set; }
+        List<ContactModel> Contacts { get; set; }
     }
 }

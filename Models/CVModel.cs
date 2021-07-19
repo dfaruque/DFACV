@@ -10,6 +10,7 @@ namespace DFACV.Models
         public string Name { get; set; }
         public string FunctionTitle { get; set; }
         public string Profile { get; set; }
+        public List<string> Features { get; set; }
         public List<ExperienceModel> Experiences { get; set; }
         public List<EducationModel> Educations { get; set; }
         public List<SkillModel> Skills { get; set; }
@@ -23,7 +24,20 @@ namespace DFACV.Models
             Name = "Deowan Faruque Ahamed";
             FunctionTitle = "Senior Software Engineer | Full-stack .Net Developer";
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. To chase highly challenging ventures where I can contribute to the organizational goals thereby acquire new technical skills and contribute constructively";
-            
+            Features = new List<string> {
+                "7+ years of professional software development experience",
+                "11+ years of programming experience",
+                "Like to write clean and maintainable code",
+                "Good skills on analyzing requirements, designing, coding and testing",
+                "Sound knowledge on Object Oriented Programming (OOP)",
+                "Familiar with Relational Database Management System (RDBMS) and SQL",
+                "Knowledge on Big data and NoSQL",
+                "Knowledge on Image processing and Computer Vision",
+                "Able to learn new technologies quickly",
+                "Can work independently and efficiently",
+                "Experience to work remotely"
+            };
+
             Experiences = new List<ExperienceModel> {
                 new ExperienceModel {
                     Title = "Senior Software Engineer",
@@ -209,7 +223,7 @@ Developed some applications with my own interest.
                  */
             };
 
-            References = new List<ReferenceModel> { 
+            References = new List<ReferenceModel> {
                 new ReferenceModel
                 {
                     Name = "Firoz Ahmed",

@@ -26,6 +26,19 @@
     </ul>
 </fieldset>
 
+<fieldset>
+    <legend>Projects</legend>
+    <ul>
+        @foreach (var item in Model.Projects)
+        {
+            <li>
+                <h4>@item.Title</h4>
+                <div>@item.Description</div>
+            </li>
+        }
+    </ul>
+</fieldset>
+
 @code{
     Models.CVModel Model = new Models.CVModel();
 }

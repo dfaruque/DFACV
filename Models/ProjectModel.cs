@@ -18,5 +18,8 @@ namespace DFACV.Models
         public string Databases { get; set; }
         public string UsedTechnologies { get; set; }
         public string Description { get; set; }
+        public string ProjectUrl { get; set; }
+        public string ProjectSource { get; set; }
+        public string ProjectDoc { get; set; }
     }
 }

@@ -16,6 +16,7 @@ namespace DFACV.Models
         public List<ProjectModel> Projects { get; set; }
         public List<ContactModel> Contacts { get; set; }
         public List<SocialMediaModel> SocialMedias { get; set; }
+        public List<ReferenceModel> References { get; set; }
 
         public CVModel()
         {
@@ -203,6 +204,24 @@ https://www.nuget.org/packages/Serenity.Extra
 Beginning programming with VB6 at school life (since 2006).
 Developed some applications with my own interest.
                  */
+            };
+            References = new List<ReferenceModel> { 
+                new ReferenceModel
+                {
+                    Name = "Firoz Ahmed",
+                    Position = "Senior Software Engineer",
+                    Organization = "TechnoVista Limited",
+                    Contact = "+880 1723 427 588",
+                    Email = "firoz7588@gmail.com"
+                },
+                new ReferenceModel
+                {
+                    Name = "Md. Shakhawat Hossain",
+                    Position = "ICT Specialist",
+                    Organization = "Local Government Engineering Department (LGED)",
+                    Contact = "+880 1713 045 757",
+                    Email = "shakhawat.hossain@yahoo.com"
+                }
             };
         }
     }

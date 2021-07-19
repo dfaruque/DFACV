@@ -23,6 +23,7 @@ namespace DFACV.Models
             Name = "Deowan Faruque Ahamed";
             FunctionTitle = "Senior Software Engineer | Full-stack .Net Developer";
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. To chase highly challenging ventures where I can contribute to the organizational goals thereby acquire new technical skills and contribute constructively";
+            
             Experiences = new List<ExperienceModel> {
                 new ExperienceModel {
                     Title = "Senior Software Engineer",
@@ -52,6 +53,7 @@ namespace DFACV.Models
                     Description = ""
                 },
             };
+
             Educations = new List<EducationModel> {
                 new EducationModel {
                     Title = "Bachelor of Computer Science and Engineering (CSE)",
@@ -78,6 +80,7 @@ namespace DFACV.Models
                     Result = "GPA 3.86 (Out of Scale 5)"
                 },
             };
+
             Projects = new List<ProjectModel> {
                 new ProjectModel {
                     Title = "Integrated Centralized Billing System for Palli Bidyut Samities",
@@ -205,6 +208,7 @@ Beginning programming with VB6 at school life (since 2006).
 Developed some applications with my own interest.
                  */
             };
+
             References = new List<ReferenceModel> { 
                 new ReferenceModel
                 {

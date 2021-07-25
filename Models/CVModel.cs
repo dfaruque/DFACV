@@ -43,12 +43,10 @@ namespace DFACV.Models
                 "11+ years of programming experience",
                 "Like to write clean and maintainable code",
                 "Good skills on analyzing requirements, designing, coding and testing",
-                "Sound knowledge on Object Oriented Programming (OOP)",
+                "Knowledge on Object Oriented Programming (OOP) and SOLID principles",
                 "Familiar with Relational Database Management System (RDBMS) and SQL",
                 "Knowledge on Big data and NoSQL",
                 "Knowledge on Image processing and Computer Vision",
-                "Able to learn new technologies quickly",
-                "Can work independently and efficiently",
                 "Experience to work remotely"
             };
 

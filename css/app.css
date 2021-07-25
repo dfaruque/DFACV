@@ -37,6 +37,7 @@ html, body {
     background-color: lightgray;
     border-right: 3px solid;
     border-color: var(--success);
+    z-index: 2;
 }
 
 .oi {

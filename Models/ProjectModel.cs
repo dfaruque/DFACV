@@ -21,5 +21,6 @@ namespace DFACV.Models
         public string ProjectUrl { get; set; }
         public string ProjectSource { get; set; }
         public string ProjectDoc { get; set; }
+        public string MoreDescription { get; set; }
     }
 }

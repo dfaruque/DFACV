@@ -49,6 +49,22 @@
     </ul>
 </fieldset>
 
+<fieldset>
+    <legend>References</legend>
+    <div class="row">
+        @foreach (var item in Model.References)
+        {
+            <div class="col-6">
+                <h4>@item.Name</h4>
+                <div>@item.Position</div>
+                <div>@item.Organization</div>
+                <div>@item.Email</div>
+                <div>@item.Contact</div>
+            </div>
+        }
+    </div>
+</fieldset>
+
 @code{
     Models.CVModel Model = new Models.CVModel();
 }

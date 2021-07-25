@@ -101,7 +101,7 @@
       "url": "_framework\/dotnet.5.0.8.js"
     },
     {
-      "hash": "sha256-zJ9mjFnAEnIigizSfuR+GMi\/V7MHtvzs4rFDbmVK5o4=",
+      "hash": "sha256-yj+H5TJSR8A3ObwIr\/9bfiJZgNqWXzq+BK02V8U9Te8=",
       "url": "DFACV.styles.css"
     },
     {
@@ -249,5 +249,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "K3Uphw2W"
+  "version": "DUb7h8V6"
 };

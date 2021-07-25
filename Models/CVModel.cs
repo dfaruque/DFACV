@@ -254,7 +254,7 @@ namespace DFACV.Models
                     Databases = "Oracle, Couchbase",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
-                    Description = @"This is a complete billing system used at Bangladesh Rural Electrification Board (BREB). Modules for this system are Electricity Meter Reading by Image Capturing, Consumer Management, Billing, Collection, etc."
+                    Description = @"This is a complete billing system used at Bangladesh Rural Electrification Board (BREB). Modules for this system are Electricity Meter Reading by Image Capturing, Consumer Management, Billing, Collection, and Accounting"
                 },
                 new ProjectModel {
                     Title = "Port Automation System",
@@ -309,7 +309,7 @@ namespace DFACV.Models
                     Databases = "SQL Server/Oracle",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
-                    Description = @"The most robust UniERP Business Solutions for all business sectors and the UniERP Business Solutions Plus packages are the best of ERPs in the market for large enterprises that are ready to take advantage of full automation and excel their the businesses in the relevant sectors for materializing maximum opportunities. The decision making, forecasting, smooth operations, lean productions and all your business functions and tasks can’t be any simpler and simply operate or make decisions from anywhere in the world.",
+                    Description = @"Solution to the all business needs including Finances, Human resources, Manufacturing, Supply chain and etc.",
                 },
                 new ProjectModel {
                     Title = "E-Licensing System",

@@ -22,3 +22,45 @@ html, body {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+h1.name {
+    color: var(--success);
+}
+
+.oi {
+    color: var(--success);
+}
+
+legend {
+    color: var(--success);
+}
+
+ul.timeline {
+    list-style-type: none;
+}
+
+    ul.timeline li {
+        position: relative;
+        margin: 0;
+        padding-bottom: 1em;
+        padding-left: 20px;
+    }
+
+        ul.timeline li:before {
+            content: '';
+            background-color: var(--success);
+            position: absolute;
+            bottom: 0px;
+            top: 0px;
+            left: 0px;
+            width: 3px;
+        }
+
+        ul.timeline li:after {
+            content: "\2022";
+            color: var(--success);
+            font-size: 50px;
+            position: absolute;
+            left: -7px;
+            top: -25px;
+        }

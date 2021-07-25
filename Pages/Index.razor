@@ -12,7 +12,7 @@
 
 <fieldset>
     <legend>Experience (7+ Years)</legend>
-    <ul>
+    <ul class="timeline">
         @foreach (var item in Model.Experiences)
         {
             <li>
@@ -25,7 +25,7 @@
 
 <fieldset>
     <legend>Education</legend>
-    <ul>
+    <ul class="timeline">
         @foreach (var item in Model.Educations)
         {
             <li>
@@ -51,10 +51,10 @@
 
 <fieldset>
     <legend>References</legend>
-    <div class="row">
+    <div class="row pl-5">
         @foreach (var item in Model.References)
         {
-            <div class="col-6">
+            <div class="col-5">
                 <h4>@item.Name</h4>
                 <div>@item.Position</div>
                 <div>@item.Organization</div>

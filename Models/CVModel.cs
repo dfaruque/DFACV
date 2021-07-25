@@ -11,9 +11,9 @@ namespace DFACV.Models
         public string FunctionTitle { get; set; }
         public string Profile { get; set; }
         public List<string> Features { get; set; }
+        public List<SkillGroup> Skills { get; set; }
         public List<ExperienceModel> Experiences { get; set; }
         public List<EducationModel> Educations { get; set; }
-        public List<SkillModel> Skills { get; set; }
         public List<ProjectModel> Projects { get; set; }
         public List<ContactModel> Contacts { get; set; }
         public List<SocialMediaModel> SocialMedias { get; set; }
@@ -36,6 +36,139 @@ namespace DFACV.Models
                 "Able to learn new technologies quickly",
                 "Can work independently and efficiently",
                 "Experience to work remotely"
+            };
+
+            Skills = new List<SkillGroup> {
+                new SkillGroup {
+                    Name = "Programming Languages",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "C#",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new SkillItem {
+                            Name = "Typescript",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new SkillItem {
+                            Name = "Javascript",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new SkillItem {
+                            Name = "Python",
+                            StartDate = new DateTime(2019, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                    }
+                },
+                new SkillGroup {
+                    Name = "Databases",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "MS SQL Server",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new SkillItem {
+                            Name = "Oracle",
+                            StartDate = new DateTime(2015, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new SkillItem {
+                            Name = "MySQL",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "NoSQL (MongoDB, RavenDB, etc.)",
+                            StartDate = new DateTime(2019, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                    }
+                },
+                new SkillGroup {
+                    Name = "Web-development Back-end",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "ASP.Net MVC",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new SkillItem {
+                            Name = "Serenity.is",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Expert
+                        }
+                    }
+                },
+                new SkillGroup {
+                    Name = "Web-development Front-end",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "Blazor WebAssembly",
+                            StartDate = new DateTime(2020, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Angular",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Vue.js",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "React.js",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        }
+                    }
+                },
+                new SkillGroup {
+                    Name = "Desktop-development",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "WinForms",
+                            StartDate = new DateTime(2010, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "WPF",
+                            StartDate = new DateTime(2014, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Electron.js",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        }
+                    }
+                },
+                new SkillGroup {
+                    Name = "Testing-frameworks",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "NUnit/xUnit/MSTest",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "SpecFlow",
+                            StartDate = new DateTime(2014, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Selenium",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        }
+                    }
+                },
             };
 
             Experiences = new List<ExperienceModel> {

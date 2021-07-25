@@ -5,7 +5,13 @@ using System.Threading.Tasks;
 
 namespace DFACV.Models
 {
-    public class SkillModel
+    public class SkillGroup
+    {
+        public string Name { get; set; }
+        public List<SkillItem> Items { get; set; }
+    }
+
+    public class SkillItem
     {
         public string Name { get; set; }
         public DateTime StartDate { get; set; }

@@ -125,6 +125,11 @@ namespace DFACV.Models
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
+                            Name = "jQuery",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
                             Name = "Angular",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Intermediate

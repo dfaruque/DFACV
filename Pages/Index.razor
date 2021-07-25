@@ -3,7 +3,21 @@
 
 <div class="page">
     <div class="sidebar">
-        <Sidebar />
+        <div class="photo mt-4">
+            <img src="images/photo.jpg" width="150" />
+        </div>
+
+        <div class="table table-borderless table-sm p-3">
+            <table>
+                @foreach (var item in Model.Contacts)
+                {
+                    <tr>
+                        <td><span class="@item.IconClass"></span></td>
+                        <td>@item.Value</td>
+                    </tr>
+                }
+            </table>
+        </div>
     </div>
 
     <div class="main">

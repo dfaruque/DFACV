@@ -35,7 +35,24 @@ html, body {
 
 .sidebar {
     background-color: lightgray;
+    border-right: 3px solid;
+    border-color: var(--success);
 }
+
+.oi {
+    width: 1.5rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -1px;
+}
+
+.photo {
+    text-align: center;
+}
+
+    .photo img {
+        border-radius: 10%;
+    }
 
 .top-row {
     background-color: #f7f7f7;

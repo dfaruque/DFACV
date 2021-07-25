@@ -13,19 +13,20 @@ namespace DFACV.Models
         {
             get
             {
-                var iconClass = "oi oi-";
+                string iconClass;
                 switch (Type)
                 {
                     case ContactType.Mobile:
-                        iconClass += "phone";
+                        iconClass = "phone";
                         break;
                     case ContactType.Email:
-                        iconClass += "envelope-closed";
+                        iconClass = "envelope";
                         break;
                     case ContactType.ResidencialAddress:
-                        iconClass += "home";
+                        iconClass = "home";
                         break;
                     default:
+                        iconClass = "";
                         break;
                 }
                 return iconClass;

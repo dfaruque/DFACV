@@ -3,7 +3,7 @@
 
 <div class="page">
     <div class="sidebar">
-        <div class="photo sticky-top">
+        <div class="photo sticky-top mb-3">
             <img src="images/photo.jpg" width="150" />
         </div>
 
@@ -12,7 +12,7 @@
                 @foreach (var item in Model.Contacts)
                 {
                     <tr>
-                        <td><span class="@item.IconClass"></span></td>
+                        <td><span class="fa fa-lg fa-@item.IconClass text-success"></span></td>
                         <td>@item.Value</td>
                     </tr>
                 }

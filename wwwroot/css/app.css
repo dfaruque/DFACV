@@ -42,13 +42,6 @@ html, body {
     z-index: 2;
 }
 
-.oi {
-    width: 1.5rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -1px;
-}
-
 .photo {
     text-align: center;
 }
@@ -92,10 +85,6 @@ html, body {
 }
 
 h1.name {
-    color: var(--success);
-}
-
-.oi {
     color: var(--success);
 }
 

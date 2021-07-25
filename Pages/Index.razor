@@ -20,7 +20,7 @@
         </div>
 
         <fieldset>
-            <legend>Skills</legend>
+            <legend><i class="fa fa-cogs"></i> Skills</legend>
             <dl>
                 @foreach (var item in Model.Skills)
                 {
@@ -41,7 +41,7 @@
         <div class="content px-4">
 
             <fieldset>
-                <legend>Profile</legend>
+                <legend><i class="fa fa-comment-o"></i> Profile</legend>
                 <div class="pb-2">@Model.Profile</div>
                 <ul>
                     @foreach (var item in Model.Features)
@@ -52,7 +52,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Experience (7+ Years)</legend>
+                <legend><i class="fa fa-briefcase"></i> Experience (7+ Years)</legend>
                 <ul class="timeline">
                     @foreach (var item in Model.Experiences)
                     {
@@ -65,7 +65,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Education</legend>
+                <legend><i class="fa fa-graduation-cap"></i> Education</legend>
                 <ul class="timeline">
                     @foreach (var item in Model.Educations)
                     {
@@ -78,7 +78,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Projects</legend>
+                <legend><i class="fa fa-list"></i> Projects</legend>
                 <ul>
                     @foreach (var item in Model.Projects)
                     {
@@ -91,7 +91,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>References</legend>
+                <legend><i class="fa fa-link"></i> References</legend>
                 <div class="row pl-5">
                     @foreach (var item in Model.References)
                     {

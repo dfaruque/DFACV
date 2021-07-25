@@ -1,4 +1,5 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url('font-awesome/css/font-awesome.min.css');
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -39,13 +40,6 @@ html, body {
     border-color: var(--success);
     padding: 15px;
     z-index: 2;
-}
-
-.oi {
-    width: 1.5rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -1px;
 }
 
 .photo {
@@ -91,10 +85,6 @@ html, body {
 }
 
 h1.name {
-    color: var(--success);
-}
-
-.oi {
     color: var(--success);
 }
 

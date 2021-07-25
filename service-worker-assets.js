@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-ftLaCTcYliiEMbjVoAKX9PsTMyCNDa\/R\/yHJxfya+0A=",
+      "hash": "sha256-KDkgs2uhS8o7FJgHLzKfBvut7ajNBdnD1BqFoDCZ9A4=",
       "url": "css\/app.css"
     },
     {
@@ -11,6 +11,38 @@
     {
       "hash": "sha256-xMZ0SaSBYZSHVjFdZTAT\/IjRExRIxSriWcJLcA9nkj0=",
       "url": "css\/bootstrap\/bootstrap.min.css.map"
+    },
+    {
+      "hash": "sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=",
+      "url": "css\/font-awesome\/css\/font-awesome.css"
+    },
+    {
+      "hash": "sha256-eZrrJcwDc\/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=",
+      "url": "css\/font-awesome\/css\/font-awesome.min.css"
+    },
+    {
+      "hash": "sha256-e\/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=",
+      "url": "css\/font-awesome\/fonts\/fontawesome-webfont.eot"
+    },
+    {
+      "hash": "sha256-rWFXkmwWIrpOHQPUePFUE2hSS\/xG9R5C\/g2UX37zI+Q=",
+      "url": "css\/font-awesome\/fonts\/fontawesome-webfont.svg"
+    },
+    {
+      "hash": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
+      "url": "css\/font-awesome\/fonts\/fontawesome-webfont.ttf"
+    },
+    {
+      "hash": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
+      "url": "css\/font-awesome\/fonts\/fontawesome-webfont.woff"
+    },
+    {
+      "hash": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8\/4=",
+      "url": "css\/font-awesome\/fonts\/fontawesome-webfont.woff2"
+    },
+    {
+      "hash": "sha256-RE3UNmYV\/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P\/NU=",
+      "url": "css\/font-awesome\/fonts\/FontAwesome.otf"
     },
     {
       "hash": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=",
@@ -61,7 +93,7 @@
       "url": "images\/photo.jpg"
     },
     {
-      "hash": "sha256-CqILNRFGBUKLAjiX9Jt4jqPS4O3wMxkrD9vAs6CJfg8=",
+      "hash": "sha256-QSof\/teMJ\/JNkf\/0J\/\/WrjEGA35a8CD6baP1VHXqjKk=",
       "url": "index.html"
     },
     {
@@ -165,7 +197,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-+V\/Pi81dmS7vunw0Zh+B6a548BWMiHOUPCaKQBsJ6EI=",
+      "hash": "sha256-1Rhr4mdBEID4w3OqzYuIaNraOudO6O71E1tsJ+X4V+s=",
       "url": "_framework\/DFACV.dll"
     },
     {
@@ -241,7 +273,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-VYNjDH0jOzHpwExwaPSRScoO5LnQXRx2Nsky0JugKaI=",
+      "hash": "sha256-FNqEsPtx8Eh6g6tkMeCJa0fnCTIerWZFJUegzauwqJ4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -249,5 +281,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "22JZiQJ7"
+  "version": "OHPsr\/3i"
 };

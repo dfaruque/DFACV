@@ -1,6 +1,16 @@
 ﻿@page "/"
 
 <fieldset>
+    <legend>Features</legend>
+    <ul>
+        @foreach (var item in Model.Features)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</fieldset>
+
+<fieldset>
     <legend>Experience (7+ Years)</legend>
     <ul>
         @foreach (var item in Model.Experiences)

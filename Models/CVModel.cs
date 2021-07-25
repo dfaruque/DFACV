@@ -126,7 +126,7 @@ namespace DFACV.Models
                     Title = "IATI Import Module",
                     Role = "Developer",
                     StartDate = new DateTime(2016, 1, 1),
-                    EndDate = new DateTime(2016, 6, 31),
+                    EndDate = new DateTime(2016, 6, 30),
                     ClientName = "ERD, Govt. of Bangladesh, financed by UNDP, DFID",
                     ClientCity = "Dhaka",
                     ProgrammingLanguages="C#, Typescript",
@@ -142,7 +142,7 @@ namespace DFACV.Models
                     Title = "Security (User Management) Module",
                     Role = "Main Developer",
                     StartDate = new DateTime(2016, 3, 1),
-                    EndDate = new DateTime(2016, 6, 31),
+                    EndDate = new DateTime(2016, 6, 30),
                     ClientName = "LGED, BEPZA, SDF and many others",
                     ClientCity = "Dhaka",
                     ProgrammingLanguages="C#, Typescript",
@@ -154,15 +154,15 @@ namespace DFACV.Models
                 new ProjectModel {
                     Title = "UniERP Business Solutions",
                     Role = "Main Developer",
-                    StartDate = new DateTime(2016, 3, 1),
-                    EndDate = new DateTime(2016, 6, 31),
+                    StartDate = new DateTime(2014, 11, 1),
+                    EndDate = new DateTime(2015, 12, 31),
                     ClientName = "Golden Life Insurance Ltd.,, Gentle Park | Bismillah Holdings Ltd.",
                     ClientCity = "Dhaka, Bangladesh | National Capital District, Papua New Guinea",
                     ProgrammingLanguages="C#, Javascript",
                     Databases = "SQL Server/Oracle",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
-                    Description = @"This is a cross database, signle-sign-on user management module which can be integrated with any project",
+                    Description = @"The most robust UniERP Business Solutions for all business sectors and the UniERP Business Solutions Plus packages are the best of ERPs in the market for large enterprises that are ready to take advantage of full automation and excel their the businesses in the relevant sectors for materializing maximum opportunities. The decision making, forecasting, smooth operations, lean productions and all your business functions and tasks can’t be any simpler and simply operate or make decisions from anywhere in the world.",
                 },
                 new ProjectModel {
                     Title = "E-Licensing System",
@@ -201,8 +201,8 @@ namespace DFACV.Models
                     Databases = "My SQL",
                     UsedTechnologies = ".Net framework, Winforms and WPF",
                     Type = "Desktop-based",
-                    Description = @"Security-software that can restrict employees to do	unauthorized access of apps and websites, monitor employees’ activity and send screenshots to the server, remotely change the employees’ privileges. It also provides file sharing and chatting facility.
-	Features: The features are applicable for specific user or group of users.
+                    Description = @"Security-software that can restrict employees to do	unauthorized access of apps and websites, monitor employees’ activity and send screenshots to the server, remotely change the employees’ privileges. It also provides file sharing and chatting facility.",
+                    MoreDescription = @"Features: The features are applicable for specific user or group of users.
 o	Block Applications– Users can run only those apps that are assigned to him and all others apps are blocked. So they cannot waste their office time by playing games or watching movies.
 o	Block websites– This feature helps you to block the specific websites that are used to passing time such as Facebook and twitter etc.
 o	Prevent access to specific hard disk drive– Users can only access those disk drives that are assigned to him. If a user have only d: and f: drives then he can only access these drives.

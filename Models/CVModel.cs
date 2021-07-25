@@ -23,6 +23,20 @@ namespace DFACV.Models
         {
             Name = "Deowan Faruque Ahamed";
             FunctionTitle = "Senior Software Engineer | Full-stack .Net Developer";
+            Contacts = new List<ContactModel> { 
+                new ContactModel {
+                    Type = ContactType.Mobile,
+                    Value = "+880 1734 588 155"
+                },
+                new ContactModel {
+                    Type = ContactType.Email,
+                    Value = "dfaruque@gmail.com"
+                },
+                new ContactModel {
+                    Type = ContactType.ResidencialAddress,
+                    Value = "Dag No. 8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
+                }
+            };
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. To chase highly challenging ventures where I can contribute to the organizational goals thereby acquire new technical skills and contribute constructively";
             Features = new List<string> {
                 "7+ years of professional software development experience",

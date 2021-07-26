@@ -106,6 +106,7 @@ ul.timeline {
             top: 0px;
             left: 0px;
             width: 3px;
+            -webkit-print-color-adjust: exact;
         }
 
         ul.timeline li:after {

@@ -109,6 +109,11 @@ namespace DFACV.Models
                                     Name = "Serenity.is",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Expert
+                                },
+                                new SkillItem {
+                                    Name = "Node.js",
+                                    StartDate = new DateTime(2016, 1, 1),
+                                    Strength = SkillStrength.Expert
                                 }
                             }
                         },

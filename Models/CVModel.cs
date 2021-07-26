@@ -20,7 +20,7 @@ namespace DFACV.Models
         public List<ReferenceModel> References { get; set; }
 
         public double ExperienceYears => DateTime.Today.Year - Experiences.Min(m => m.StartDate).Year;
-        public double ProgrammingExperienceYears => DateTime.Today.Year - 2006;
+        public static double ProgrammingExperienceYears => DateTime.Today.Year - 2006;
 
         public CVModel()
         {
@@ -37,7 +37,7 @@ namespace DFACV.Models
                 },
                 new ContactModel {
                     Type = ContactType.ResidencialAddress,
-                    Value = "Dag No. 8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
+                    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
                 }
             };
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. To chase highly challenging ventures where I can contribute to the organizational goals thereby acquire new technical skills and contribute constructively";
@@ -94,49 +94,55 @@ namespace DFACV.Models
                     }
                 },
                 new SkillGroup {
-                    Name = "Web-development Back-end",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
-                            Name = "ASP.NET MVC",
-                            StartDate = new DateTime(2012, 1, 1),
-                            Strength = SkillStrength.Advanced
+                    Name = "Web-development",
+                    Items = new List<SkillItem> { },
+                    SkillSubGroups = new List<SkillGroup> {
+                        new SkillGroup {
+                            Name = "Back-end",
+                            Items = new List<SkillItem> {
+                                new SkillItem {
+                                    Name = "ASP.NET MVC",
+                                    StartDate = new DateTime(2012, 1, 1),
+                                    Strength = SkillStrength.Advanced
+                                },
+                                new SkillItem {
+                                    Name = "Serenity.is",
+                                    StartDate = new DateTime(2016, 1, 1),
+                                    Strength = SkillStrength.Expert
+                                }
+                            }
                         },
-                        new SkillItem {
-                            Name = "Serenity.is",
-                            StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Expert
+                        new SkillGroup {
+                            Name = "Front-end",
+                            Items = new List<SkillItem> {
+                                new SkillItem {
+                                    Name = "Blazor WebAssembly",
+                                    StartDate = new DateTime(2020, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "jQuery",
+                                    StartDate = new DateTime(2012, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "Angular",
+                                    StartDate = new DateTime(2016, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "Vue.js",
+                                    StartDate = new DateTime(2016, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "React.js",
+                                    StartDate = new DateTime(2018, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                }
+                            }
                         }
-                    }
-                },
-                new SkillGroup {
-                    Name = "Web-development Front-end",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
-                            Name = "Blazor WebAssembly",
-                            StartDate = new DateTime(2020, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        },
-                        new SkillItem {
-                            Name = "jQuery",
-                            StartDate = new DateTime(2012, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        },
-                        new SkillItem {
-                            Name = "Angular",
-                            StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        },
-                        new SkillItem {
-                            Name = "Vue.js",
-                            StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        },
-                        new SkillItem {
-                            Name = "React.js",
-                            StartDate = new DateTime(2018, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        }
-                    }
+                    },
                 },
                 new SkillGroup {
                     Name = "Desktop-development",
@@ -159,6 +165,16 @@ namespace DFACV.Models
                     }
                 },
                 new SkillGroup {
+                    Name = "Mobile-development",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "Xamarin",
+                            StartDate = new DateTime(2018, 1, 1),
+                            Strength = SkillStrength.Beginner
+                        }
+                    }
+                },
+                new SkillGroup {
                     Name = "Testing-frameworks",
                     Items = new List<SkillItem> {
                         new SkillItem {
@@ -173,6 +189,31 @@ namespace DFACV.Models
                         },
                         new SkillItem {
                             Name = "Selenium",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        }
+                    }
+                },
+                new SkillGroup {
+                    Name = "Others",
+                    Items = new List<SkillItem> {
+                        new SkillItem {
+                            Name = "Git",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "OpenCV",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "BabylonJS",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Tesseract OCR",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }

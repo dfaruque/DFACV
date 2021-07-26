@@ -24,8 +24,14 @@
             <dl>
                 @foreach (var item in Model.Skills)
                 {
-                    <dt>@item.Name</dt>
+                    <dt class="text-success">@item.Name</dt>
                     <dd>@string.Join(", ", item.Items.Select(s => s.Name))</dd>
+
+                    if (item.SkillSubGroups != null)
+                        foreach (var subItem in item.SkillSubGroups)
+                        {
+                            <dd><strong class="text-success">@subItem.Name:</strong> @string.Join(", ", subItem.Items.Select(s => s.Name))</dd>
+                        }
                 }
             </dl>
         </fieldset>

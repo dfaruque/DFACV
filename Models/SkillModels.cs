@@ -8,6 +8,7 @@ namespace DFACV.Models
     public class SkillGroup
     {
         public string Name { get; set; }
+        public List<SkillGroup> SkillSubGroups { get; set; }
         public List<SkillItem> Items { get; set; }
     }
 

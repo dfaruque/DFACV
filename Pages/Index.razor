@@ -82,10 +82,13 @@
                 <ul>
                     @foreach (var item in Model.Projects)
                     {
-                        <li>
-                            <h5 class="pt-3">@item.Title</h5>
-                            <div>@item.Description</div>
-                        </li>
+                    <li>
+                        <h5 class="pt-3">@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                        <div><strong>Role: </strong>@item.Role <strong>Programming Languages: </strong>@item.ProgrammingLanguages</div>
+                        <div><strong>Used Technologies: </strong>@item.UsedTechnologies <strong>Databases: </strong>@item.Databases</div>
+                        <div><strong>Description: </strong>@item.Description</div>
+                        <div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>
+                    </li>
                     }
                 </ul>
             </fieldset>

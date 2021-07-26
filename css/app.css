@@ -73,14 +73,8 @@ html, body {
     }
 
     .top-row {
-        position: sticky;
         top: 0;
         z-index: 1;
-    }
-
-    .main > div {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
     }
 }
 
@@ -90,6 +84,7 @@ h1.name {
 
 legend {
     color: var(--success);
+    font-size: 1.4rem
 }
 
 ul.timeline {

@@ -40,7 +40,7 @@ namespace DFACV.Models
                     Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
                 }
             };
-            Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. To chase highly challenging ventures where I can contribute to the organizational goals thereby acquire new technical skills and contribute constructively";
+            Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations.";
 
             Skills = new List<SkillGroup> {
                 new SkillGroup {

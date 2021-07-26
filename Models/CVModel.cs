@@ -116,13 +116,23 @@ namespace DFACV.Models
                             Name = "Front-end",
                             Items = new List<SkillItem> {
                                 new SkillItem {
-                                    Name = "Blazor WebAssembly",
-                                    StartDate = new DateTime(2020, 1, 1),
+                                    Name = "HTML",
+                                    StartDate = new DateTime(2012, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "CSS",
+                                    StartDate = new DateTime(2012, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
                                 new SkillItem {
                                     Name = "jQuery",
                                     StartDate = new DateTime(2012, 1, 1),
+                                    Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "Bootstrap",
+                                    StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
                                 new SkillItem {

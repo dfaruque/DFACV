@@ -57,8 +57,8 @@
                     @foreach (var item in Model.Experiences)
                     {
                         <li>
-                            <h4>@item.Title <small>| @item.CompanyName, @item.City | @item.StartYear - @item.EndYear</small></h4>
-                            <div></div>
+                            <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <div>@item.CompanyName, @item.City</div>
                         </li>
                     }
                 </ul>
@@ -70,8 +70,8 @@
                     @foreach (var item in Model.Educations)
                     {
                         <li>
-                            <h4>@item.Title <small>| @item.InstituteName, @item.City | @item.StartYear - @item.EndYear</small></h4>
-                            <div></div>
+                            <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <div>@item.InstituteName, @item.City</div>
                         </li>
                     }
                 </ul>

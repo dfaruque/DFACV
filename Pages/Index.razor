@@ -85,10 +85,10 @@
 
             <fieldset>
                 <legend><i class="fa fa-list"></i> Projects</legend>
-                <ul class="list-group list-group-flush">
+                <div class="list-group list-group-flush">
                     @foreach (var item in Model.Projects)
                     {
-                        <li class="list-group-item">
+                        <div class="list-group-item">
                             <h5 class="">@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                             <div class="row">
                                 <div class="col-7">
@@ -102,9 +102,9 @@
                                     <div><strong>Databases: </strong>@item.Databases</div>
                                 </div>
                             </div>
-                        </li>
+                        </div>
                     }
-                </ul>
+                </div>
             </fieldset>
 
             <fieldset>

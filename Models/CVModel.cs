@@ -136,12 +136,12 @@ namespace DFACV.Models
                                     Strength = SkillStrength.Intermediate
                                 },
                                 new SkillItem {
-                                    Name = "Bootstrap",
+                                    Name = "Bootstrap.css",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
                                 new SkillItem {
-                                    Name = "Angular",
+                                    Name = "Angular.js",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
@@ -223,7 +223,7 @@ namespace DFACV.Models
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
-                            Name = "BabylonJS",
+                            Name = "Babylon.js",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },

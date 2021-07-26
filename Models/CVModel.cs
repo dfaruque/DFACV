@@ -19,11 +19,14 @@ namespace DFACV.Models
         public List<SocialMediaModel> SocialMedias { get; set; }
         public List<ReferenceModel> References { get; set; }
 
+        public double ExperienceYears => DateTime.Today.Year - Experiences.Min(m => m.StartDate).Year;
+        public double ProgrammingExperienceYears => DateTime.Today.Year - 2006;
+
         public CVModel()
         {
             Name = "Deowan Faruque Ahamed";
             FunctionTitle = "Senior Software Engineer | Full-stack .Net Developer";
-            Contacts = new List<ContactModel> { 
+            Contacts = new List<ContactModel> {
                 new ContactModel {
                     Type = ContactType.Mobile,
                     Value = "+880 1734 588 155"
@@ -38,17 +41,6 @@ namespace DFACV.Models
                 }
             };
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. To chase highly challenging ventures where I can contribute to the organizational goals thereby acquire new technical skills and contribute constructively";
-            Features = new List<string> {
-                "7+ years of professional software development experience",
-                "11+ years of programming experience",
-                "Like to write clean and maintainable code",
-                "Good skills on analyzing requirements, designing, coding and testing",
-                "Knowledge on Object Oriented Programming (OOP) and SOLID principles",
-                "Familiar with Relational Database Management System (RDBMS) and SQL",
-                "Knowledge on Big data and NoSQL",
-                "Knowledge on Image processing and Computer Vision",
-                "Experience to work remotely"
-            };
 
             Skills = new List<SkillGroup> {
                 new SkillGroup {
@@ -131,17 +123,17 @@ namespace DFACV.Models
                         },
                         new SkillItem {
                             Name = "Angular",
-                            StartDate = new DateTime(2012, 1, 1),
+                            StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
                             Name = "Vue.js",
-                            StartDate = new DateTime(2012, 1, 1),
+                            StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
                             Name = "React.js",
-                            StartDate = new DateTime(2016, 1, 1),
+                            StartDate = new DateTime(2018, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }
                     }
@@ -161,7 +153,7 @@ namespace DFACV.Models
                         },
                         new SkillItem {
                             Name = "Electron.js",
-                            StartDate = new DateTime(2012, 1, 1),
+                            StartDate = new DateTime(2017, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }
                     }
@@ -176,12 +168,12 @@ namespace DFACV.Models
                         },
                         new SkillItem {
                             Name = "SpecFlow",
-                            StartDate = new DateTime(2014, 1, 1),
+                            StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
                             Name = "Selenium",
-                            StartDate = new DateTime(2012, 1, 1),
+                            StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }
                     }
@@ -371,6 +363,18 @@ https://www.nuget.org/packages/Serenity.Extra
 Beginning programming with VB6 at school life (since 2006).
 Developed some applications with my own interest.
                  */
+            };
+
+            Features = new List<string> {
+                ExperienceYears + "+ years of professional software development experience",
+                ProgrammingExperienceYears + "+ years of programming experience",
+                "Like to write clean and maintainable code",
+                "Good skills on analyzing requirements, designing, coding and testing",
+                "Knowledge on Object Oriented Programming (OOP) and SOLID principles",
+                "Familiar with Relational Database Management System (RDBMS) and SQL",
+                "Knowledge on Big data and NoSQL",
+                "Knowledge on Image processing and Computer Vision",
+                "Experience to work remotely"
             };
 
             References = new List<ReferenceModel> {

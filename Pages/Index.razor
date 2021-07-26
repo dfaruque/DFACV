@@ -79,16 +79,24 @@
 
             <fieldset>
                 <legend><i class="fa fa-list"></i> Projects</legend>
-                <ul class="pl-4">
+                <ul class="list-group list-group-flush">
                     @foreach (var item in Model.Projects)
                     {
-                    <li>
-                        <h5 class="pt-3">@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
-                        <div><strong>Role: </strong>@item.Role <strong>Programming Languages: </strong>@item.ProgrammingLanguages</div>
-                        <div><strong>Used Technologies: </strong>@item.UsedTechnologies <strong>Databases: </strong>@item.Databases</div>
-                        <div><strong>Description: </strong>@item.Description</div>
-                        <div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>
-                    </li>
+                        <li class="list-group-item">
+                            <h5 class="">@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="text-justify">@item.Description</div>
+                                    <div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>
+                                </div>
+                                <div class="col-5">
+                                    <div><strong>Role: </strong>@item.Role</div>
+                                    <div><strong>Languages: </strong>@item.ProgrammingLanguages</div>
+                                    <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>
+                                    <div><strong>Databases: </strong>@item.Databases</div>
+                                </div>
+                            </div>                        
+                        </li>
                     }
                 </ul>
             </fieldset>

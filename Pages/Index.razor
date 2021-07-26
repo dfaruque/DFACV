@@ -42,7 +42,7 @@
 
             <fieldset>
                 <legend><i class="fa fa-comment-o"></i> Profile</legend>
-                <div class="pb-2">@Model.Profile</div>
+                <div class="pl-4 pb-2">@Model.Profile</div>
                 <ul>
                     @foreach (var item in Model.Features)
                     {
@@ -83,7 +83,7 @@
                     @foreach (var item in Model.Projects)
                     {
                         <li>
-                            <h4 class="pt-3">@item.Title</h4>
+                            <h5 class="pt-3">@item.Title</h5>
                             <div>@item.Description</div>
                         </li>
                     }
@@ -92,11 +92,11 @@
 
             <fieldset>
                 <legend><i class="fa fa-link"></i> References</legend>
-                <div class="row pl-5">
+                <div class="row pl-4">
                     @foreach (var item in Model.References)
                     {
                         <div class="col-5">
-                            <h4>@item.Name</h4>
+                            <h5>@item.Name</h5>
                             <div>@item.Position</div>
                             <div>@item.Organization</div>
                             <div>@item.Email</div>

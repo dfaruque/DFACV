@@ -25,7 +25,7 @@ namespace DFACV.Models
         public CVModel()
         {
             Name = "Deowan Faruque Ahamed";
-            FunctionTitle = "Senior Software Engineer | Full-stack .Net Developer";
+            FunctionTitle = "Senior Software Engineer | Full-stack .NET Developer";
             Contacts = new List<ContactModel> {
                 new ContactModel {
                     Type = ContactType.Mobile,
@@ -52,12 +52,12 @@ namespace DFACV.Models
                             Strength = SkillStrength.Advanced
                         },
                         new SkillItem {
-                            Name = "Typescript",
+                            Name = "TypeScript",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Advanced
                         },
                         new SkillItem {
-                            Name = "Javascript",
+                            Name = "JavaScript",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Advanced
                         },
@@ -97,7 +97,7 @@ namespace DFACV.Models
                     Name = "Web-development Back-end",
                     Items = new List<SkillItem> {
                         new SkillItem {
-                            Name = "ASP.Net MVC",
+                            Name = "ASP.NET MVC",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Advanced
                         },
@@ -245,7 +245,7 @@ namespace DFACV.Models
                     EndDate = null,
                     ClientName = "Bangladesh Rural Electrification Board (BREB)",
                     ClientCity = "Dhaka,",
-                    ProgrammingLanguages="C#, Typescript",
+                    ProgrammingLanguages="C#, TypeScript",
                     Databases = "Oracle, Couchbase",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
@@ -258,7 +258,7 @@ namespace DFACV.Models
                     EndDate = new DateTime(2018, 3, 1),
                     ClientName = "Mongla Port Authority",
                     ClientCity = "Mongla, Bagerhat",
-                    ProgrammingLanguages="C#, Typescript",
+                    ProgrammingLanguages="C#, TypeScript",
                     Databases = "SQL Server",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, Vue.js, Babylon.js",
                     Type = "Web-based",
@@ -271,7 +271,7 @@ namespace DFACV.Models
                     EndDate = new DateTime(2016, 6, 30),
                     ClientName = "ERD, Govt. of Bangladesh, financed by UNDP, DFID",
                     ClientCity = "Dhaka",
-                    ProgrammingLanguages="C#, Typescript",
+                    ProgrammingLanguages="C#, TypeScript",
                     Databases = "SQL Server, RavenDB",
                     UsedTechnologies = "ASP.NET MVC, Entity Framework, AngularJs",
                     Type = "Web-based",
@@ -287,11 +287,11 @@ namespace DFACV.Models
                     EndDate = new DateTime(2016, 6, 30),
                     ClientName = "LGED, BEPZA, SDF and many others",
                     ClientCity = "Dhaka",
-                    ProgrammingLanguages="C#, Typescript",
+                    ProgrammingLanguages="C#, TypeScript",
                     Databases = "Cross Database (SQL Server/Oracle/MySQL etc.)",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
-                    Description = @"This is a cross database, signle-sign-on user management module which can be integrated with any project",
+                    Description = @"This is a cross database, single-sign-on (SSO) user management module which can be integrated with any project",
                 },
                 new ProjectModel {
                     Title = "UniERP Business Solutions",
@@ -300,9 +300,9 @@ namespace DFACV.Models
                     EndDate = new DateTime(2015, 12, 31),
                     ClientName = "Golden Life Insurance Ltd.,, Gentle Park | Bismillah Holdings Ltd.",
                     ClientCity = "Dhaka, Bangladesh | National Capital District, Papua New Guinea",
-                    ProgrammingLanguages="C#, Javascript",
+                    ProgrammingLanguages="C#, JavaScript",
                     Databases = "SQL Server/Oracle",
-                    UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
+                    UsedTechnologies = "ASP.NET WebForms, Entity Framework, Crystal Reports",
                     Type = "Web-based",
                     Description = @"Solution to the all business needs including Finances, Human resources, Manufacturing, Supply chain and etc.",
                 },
@@ -313,7 +313,7 @@ namespace DFACV.Models
                     EndDate = new DateTime(2018, 2, 28),
                     ClientName = "Bangladesh Energy Regulatory Commission (BERC)",
                     ClientCity = "Dhaka",
-                    ProgrammingLanguages="C#, Typescript",
+                    ProgrammingLanguages="C#, TypeScript",
                     Databases = "SQL Server",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
@@ -326,7 +326,7 @@ namespace DFACV.Models
                     EndDate = new DateTime(2016, 6, 30),
                     ClientName = "Banglalink Digital Communication System",
                     ClientCity = "Dhaka",
-                    ProgrammingLanguages="C#, Javascript",
+                    ProgrammingLanguages="C#, JavaScript",
                     Databases = "SQL Server",
                     UsedTechnologies = "ASP.NET Web Forms, WCF",
                     Type = "Web-based",
@@ -341,7 +341,7 @@ namespace DFACV.Models
                     ClientCity = "Dhaka",
                     ProgrammingLanguages="C#",
                     Databases = "My SQL",
-                    UsedTechnologies = ".Net framework, Winforms and WPF",
+                    UsedTechnologies = ".NET Framework, WinForms and WPF",
                     Type = "Desktop-based",
                     Description = @"Security-software that can restrict employees to do	unauthorized access of apps and websites, monitor employees’ activity and send screenshots to the server, remotely change the employees’ privileges. It also provides file sharing and chatting facility.",
                     MoreDescription = @"Features: The features are applicable for specific user or group of users.

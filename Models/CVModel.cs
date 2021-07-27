@@ -245,6 +245,16 @@ namespace DFACV.Models
                             Name = "Tesseract OCR",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Entity Framework",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
+                            Name = "Dapper",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
                         }
                     }
                 },

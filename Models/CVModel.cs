@@ -29,7 +29,7 @@ namespace DFACV.Models
             Contacts = new List<ContactModel> {
                 new ContactModel {
                     Type = ContactType.ResidencialAddress,
-                    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
+                    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka-1229, Bangladesh"
                 },
                 new ContactModel {
                     Type = ContactType.Email,

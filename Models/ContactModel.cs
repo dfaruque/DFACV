@@ -19,6 +19,9 @@ namespace DFACV.Models
                     case ContactType.Mobile:
                         iconClass = "phone";
                         break;
+                    case ContactType.Skype:
+                        iconClass = "skype";
+                        break;
                     case ContactType.Email:
                         iconClass = "envelope";
                         break;
@@ -36,7 +39,8 @@ namespace DFACV.Models
     public enum ContactType
     {
         Mobile = 0,
-        Email = 1,
-        ResidencialAddress = 2,
+        Skype = 1,
+        Email = 2,
+        ResidencialAddress = 3,
     }
 }

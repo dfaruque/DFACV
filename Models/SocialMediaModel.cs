@@ -9,6 +9,27 @@ namespace DFACV.Models
     {
         public SocialMediaType Type { get; set; }
         public string Value { get; set; }
+        public string IconClass
+        {
+            get
+            {
+                string iconClass;
+                switch (Type)
+                {
+                    case SocialMediaType.Github:
+                        iconClass = "github";
+                        break;
+                    case SocialMediaType.LinkedIn:
+                        iconClass = "linkedin";
+                        break;
+                    default:
+                        iconClass = "";
+                        break;
+                }
+                return iconClass;
+            }
+        }
+
     }
 
     public enum SocialMediaType

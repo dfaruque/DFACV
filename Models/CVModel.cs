@@ -28,16 +28,30 @@ namespace DFACV.Models
             FunctionTitle = "Senior Software Engineer | Full-stack .NET Developer";
             Contacts = new List<ContactModel> {
                 new ContactModel {
-                    Type = ContactType.Mobile,
-                    Value = "+880 1734 588 155"
+                    Type = ContactType.ResidencialAddress,
+                    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
                 },
                 new ContactModel {
                     Type = ContactType.Email,
                     Value = "dfaruque@gmail.com"
                 },
                 new ContactModel {
-                    Type = ContactType.ResidencialAddress,
-                    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka - 1229"
+                    Type = ContactType.Mobile,
+                    Value = "+880 1734 588 155"
+                },
+                new ContactModel {
+                    Type = ContactType.Skype,
+                    Value = "d.faruque"
+                },
+            };
+            SocialMedias = new List<SocialMediaModel> {
+                new SocialMediaModel {
+                    Type = SocialMediaType.Github,
+                    Value = "dfaruque"
+                },
+                new SocialMediaModel {
+                    Type = SocialMediaType.LinkedIn,
+                    Value = "dfaruque"
                 }
             };
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations.";

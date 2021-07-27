@@ -16,6 +16,13 @@
                         <td>@item.Value</td>
                     </tr>
                 }
+                @foreach (var item in Model.SocialMedias)
+                {
+                    <tr>
+                        <td><i class="fa fa-lg fa-@item.IconClass text-success"></i></td>
+                        <td>/@item.Value</td>
+                    </tr>
+                }
             </table>
         </div>
 

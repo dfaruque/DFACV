@@ -82,7 +82,7 @@ h1.name {
     color: var(--success);
 }
 
-legend {
+.legend {
     color: var(--success);
     font-size: 1.4rem
 }

@@ -87,6 +87,13 @@ h1.name {
     font-size: 1.4rem
 }
 
+.badge-skill {
+    font-size: 85%;
+    margin-left: .15rem;
+    margin-right: .15rem;
+    -webkit-print-color-adjust: exact;
+}
+
 ul.timeline {
     list-style-type: none;
 }

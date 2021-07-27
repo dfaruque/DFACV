@@ -87,7 +87,7 @@ namespace DFACV.Models
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
-                            Name = "NoSQL (MongoDB, RavenDB, etc.)",
+                            Name = "NoSQL (MongoDB, etc.)",
                             StartDate = new DateTime(2019, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
@@ -193,7 +193,7 @@ namespace DFACV.Models
                     Name = "Testing-frameworks",
                     Items = new List<SkillItem> {
                         new SkillItem {
-                            Name = "NUnit/xUnit/MSTest",
+                            Name = "NUnit / xUnit / MSTest",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },

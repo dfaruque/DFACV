@@ -22,15 +22,26 @@
         <section>
             <h4 class="legend"><i class="fa fa-cogs"></i> Skills</h4>
             <dl>
-                @foreach (var item in Model.Skills)
+                @foreach (var skill in Model.Skills)
                 {
-                    <dt class="text-success">@item.Name</dt>
-                    <dd>@string.Join(", ", item.Items.Select(s => s.Name))</dd>
-
-                    if (item.SkillSubGroups != null)
-                        foreach (var subItem in item.SkillSubGroups)
+                    <dt class="text-success">@skill.Name</dt>
+                    <dd>
+                        @foreach (var item in skill.Items)
                         {
-                            <dd><strong class="text-success">@subItem.Name:</strong> @string.Join(", ", subItem.Items.Select(s => s.Name))</dd>
+                            <span class="badge badge-dark badge-skill">@item.Name</span>
+                        }
+                    </dd>
+
+                    if (skill.SkillSubGroups != null)
+                        foreach (var subItem in skill.SkillSubGroups)
+                        {
+                            <dd>
+                                <strong class="text-success">@subItem.Name:</strong>
+                                @foreach (var item in subItem.Items)
+                                {
+                                    <span class="badge badge-dark badge-skill">@item.Name</span>
+                                }
+                            </dd>
                         }
                 }
             </dl>
@@ -58,7 +69,7 @@
             </section>
 
             <section>
-                <h4 class="legend"><i class="fa fa-briefcase"></i> Experience (@Model.ExperienceYears+ Years)</h4>
+                <h4 class="legend"><i class="fa fa-briefcase"></i> Experience <span class="badge badge-success">@Model.ExperienceYears+ Years</span></h4>
                 <ul class="timeline pl-3">
                     @foreach (var item in Model.Experiences)
                     {

@@ -27,9 +27,13 @@ namespace DFACV.Models
             Name = "Deowan Faruque Ahamed";
             FunctionTitle = "Senior Software Engineer | Full-stack .NET Developer";
             Contacts = new List<ContactModel> {
+                //new ContactModel {
+                //    Type = ContactType.ResidencialAddress,
+                //    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka-1229, Bangladesh"
+                //},
                 new ContactModel {
-                    Type = ContactType.ResidencialAddress,
-                    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka-1229, Bangladesh"
+                    Type = ContactType.Location,
+                    Value = "Dhaka, Bangladesh"
                 },
                 new ContactModel {
                     Type = ContactType.Email,
@@ -115,7 +119,7 @@ namespace DFACV.Models
                             Name = "Back-end",
                             Items = new List<SkillItem> {
                                 new SkillItem {
-                                    Name = "ASP.NET MVC",
+                                    Name = "ASP.NET",
                                     StartDate = new DateTime(2012, 1, 1),
                                     Strength = SkillStrength.Advanced
                                 },

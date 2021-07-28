@@ -25,6 +25,9 @@ namespace DFACV.Models
                     case ContactType.Email:
                         iconClass = "envelope";
                         break;
+                    case ContactType.Location:
+                        iconClass = "map-marker";
+                        break;
                     case ContactType.ResidencialAddress:
                         iconClass = "home";
                         break;
@@ -41,6 +44,7 @@ namespace DFACV.Models
         Mobile = 0,
         Skype = 1,
         Email = 2,
-        ResidencialAddress = 3,
+        Location = 3,
+        ResidencialAddress = 4,
     }
 }

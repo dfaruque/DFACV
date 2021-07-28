@@ -172,6 +172,11 @@ namespace DFACV.Models
                                     Name = "React.js",
                                     StartDate = new DateTime(2018, 1, 1),
                                     Strength = SkillStrength.Intermediate
+                                },
+                                new SkillItem {
+                                    Name = "Blazor",
+                                    StartDate = new DateTime(2020, 1, 1),
+                                    Strength = SkillStrength.Intermediate
                                 }
                             }
                         }

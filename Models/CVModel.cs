@@ -360,6 +360,7 @@ namespace DFACV.Models
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
                     Description = @"Online licensing and approval system for any business entities of Power/Gas/Petroleum Production, Transition or Distribution Companies",
+                    ProjectUrl = "http://elicense.berc.org.bd/"
                 },
                 new ProjectModel {
                     Title = "IATI Import Module",

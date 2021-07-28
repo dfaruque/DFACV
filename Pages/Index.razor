@@ -112,6 +112,10 @@
                                 <div class="col-7">
                                     <div class="text-justify">@item.Description</div>
                                     <div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>
+                                    @if (!string.IsNullOrEmpty(item.ProjectUrl))
+                                    {
+                                        <div><strong>URL: </strong>@item.ProjectUrl</div>
+                                    }
                                 </div>
                                 <div class="col-5">
                                     <div><strong>Role: </strong>@item.Role</div>

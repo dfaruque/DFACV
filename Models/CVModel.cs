@@ -374,7 +374,7 @@ namespace DFACV.Models
                     UsedTechnologies = "ASP.NET MVC, Entity Framework, AngularJs",
                     Type = "Web-based",
                     Description = @"This project integrates AIMS Bangladesh with IATI where Development partners publish their data of aid activities through the International Aid Transparency Initiative (IATI). This project's aim is to start using IATI data in Bangladesh's Aid Information Management System (AIMS) and to improve the quality of the data held in the AIMS and reduce the burden of data collection.",
-                    ProjectUrl = "http://aims.erd.gov.bd/",
+                    ProjectUrl = "http://aims.erd.gov.bd/IATIImportSite",
                     ProjectSource = "https://github.com/BD-IATI/edi",
                     ProjectDoc = "http://bd-iati.github.io/",
                 },

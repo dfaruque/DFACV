@@ -97,6 +97,7 @@
                         <li>
                             <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
                             <div>@item.InstituteName, @item.City</div>
+                            <div>@item.Result</div>
                         </li>
                     }
                 </ul>
@@ -107,8 +108,8 @@
                 <div class="list-group list-group-flush">
                     @foreach (var item in Model.Projects)
                     {
-                        <div class="list-group-item">
-                            <h5 class="">@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                        <div class="list-group-item pl-0" style="break-inside: avoid;">
+                            <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                             <div class="row">
                                 <div class="col-7">
                                     <div class="text-justify">@item.Description</div>
@@ -130,9 +131,6 @@
                 </div>
             </section>
 
-            <br />
-            <br />
-            <br />
             <br />
 
             <section>

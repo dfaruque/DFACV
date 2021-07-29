@@ -466,8 +466,8 @@ Developed some applications with my own interest.
                 "Like to write clean and maintainable code",
                 "Good skills on analyzing requirements, designing, coding and testing",
                 "Knowledge on Object Oriented Programming (OOP) and SOLID principles",
-                "Familiar with various Database Management Systems including SQL and NoSQL",
-                "Knowledge on Image processing and Computer Vision",
+                "Knowledge with various Database Management Systems including SQL and NoSQL",
+                "Familier with agile practices and methodologies like scrum and kanban",
                 "Experience to work remotely"
             };
 

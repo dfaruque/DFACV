@@ -83,6 +83,7 @@
                         <li>
                             <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
                             <div>@item.CompanyName, @item.City</div>
+                            <div>@((MarkupString)item.Description)</div>
                         </li>
                     }
                 </ul>
@@ -128,6 +129,11 @@
                     }
                 </div>
             </section>
+
+            <br />
+            <br />
+            <br />
+            <br />
 
             <section>
                 <h4 class="legend"><i class="fa fa-link"></i> References</h4>

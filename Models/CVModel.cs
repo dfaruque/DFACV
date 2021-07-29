@@ -277,7 +277,9 @@ namespace DFACV.Models
                     City = "Dhaka",
                     StartDate = new DateTime(2018, 1, 1),
                     EndDate = null,
-                    Description = ""
+                    Description = "<div>→ Working closely with project manager.</div>" +
+                    "<div>→ Collecting client requirements and convert them to the technical solution.</div>" +
+                    "<div>→ As a project development lead, help juniors to understand and perform their tasks.</div>"
                 },
                 new ExperienceModel {
                     Title = "Software Engineer",
@@ -286,7 +288,9 @@ namespace DFACV.Models
                     City = "Dhaka",
                     StartDate = new DateTime(2016, 1, 1),
                     EndDate = new DateTime(2017, 12, 31),
-                    Description = ""
+                    Description = "<div>→ Worked closely with senior software engineer.</div>" +
+                    "<div>→ Understood business and developed accordingly.</div>" +
+                    "<div>→ Got performance award!</div>"
                 },
                 new ExperienceModel {
                     Title = "Software Developer",
@@ -295,7 +299,8 @@ namespace DFACV.Models
                     City = "Dhaka",
                     StartDate = new DateTime(2014, 11, 1),
                     EndDate = new DateTime(2015, 12, 31),
-                    Description = ""
+                    Description = "<div>→ Worked as a development team member of an ERP system called UniERP.</div>" +
+                    "<div>→ Understood business from analyst and developed accordingly.</div>"
                 },
             };
 

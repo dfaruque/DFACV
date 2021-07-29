@@ -311,7 +311,7 @@ namespace DFACV.Models
                     City = "Dhaka",
                     StartDate = new DateTime(2010, 9, 1),
                     EndDate = new DateTime(2014, 8, 30),
-                    Result = "CGPA 3.67 (Out of Scale 4)"
+                    Result = "CGPA 3.67 (Out of Scale 4) ─ Got scholarships in several semesters"
                 },
                 new EducationModel {
                     Title = "Higher Secondary Certificate (H.S.C)",

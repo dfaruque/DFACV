@@ -467,7 +467,7 @@ Developed some applications with my own interest.
                 "Good skills on analyzing requirements, designing, coding and testing",
                 "Knowledge on Object Oriented Programming (OOP) and SOLID principles",
                 "Knowledge with various Database Management Systems including SQL and NoSQL",
-                "Familier with agile practices and methodologies like scrum and kanban",
+                "Familiar with agile practices and methodologies like scrum and kanban",
                 "Experience to work remotely"
             };
 

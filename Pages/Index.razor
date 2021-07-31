@@ -3,6 +3,11 @@
 
 <div class="page">
     <div class="sidebar">
+        <div class="top-row-sidebar px-4">
+            <h1 class="name">@Model.Name</h1>
+            <h4 class="function-title">@Model.FunctionTitle</h4>
+        </div>
+
         <div class="photo mb-3">
             <img src="images/photo.jpg" width="150" />
         </div>
@@ -81,7 +86,7 @@
                     @foreach (var item in Model.Experiences)
                     {
                         <li>
-                            <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <h5>@item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
                             <div>@item.CompanyName, @item.City</div>
                             <div>@((MarkupString)item.Description)</div>
                         </li>
@@ -95,7 +100,7 @@
                     @foreach (var item in Model.Educations)
                     {
                         <li>
-                            <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <h5>@item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
                             <div>@item.InstituteName, @item.City</div>
                             <div>@item.Result</div>
                         </li>
@@ -109,9 +114,9 @@
                     @foreach (var item in Model.Projects)
                     {
                         <div class="list-group-item pl-0" style="break-inside: avoid;">
-                            <h5>@item.Title <small class="pull-right"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                            <h5>@item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-md-7">
                                     <div class="text-justify">@item.Description</div>
                                     <div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>
                                     @if (!string.IsNullOrEmpty(item.ProjectUrl))
@@ -119,7 +124,7 @@
                                         <div><strong>URL: </strong>@item.ProjectUrl</div>
                                     }
                                 </div>
-                                <div class="col-5">
+                                <div class="col-md-5">
                                     <div><strong>Role: </strong>@item.Role</div>
                                     <div><strong>Languages: </strong>@item.ProgrammingLanguages</div>
                                     <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>
@@ -138,7 +143,7 @@
                 <div class="row pl-4">
                     @foreach (var item in Model.References)
                     {
-                        <div class="col-5">
+                        <div class="col-md-5">
                             <h5>@item.Name</h5>
                             <div>@item.Position</div>
                             <div>@item.Organization</div>

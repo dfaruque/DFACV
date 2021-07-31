@@ -251,6 +251,11 @@ namespace DFACV.Models
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
+                            Name = "WebGL",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new SkillItem {
                             Name = "Tesseract OCR",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
@@ -354,7 +359,7 @@ namespace DFACV.Models
                     ClientCity = "Mongla, Bagerhat",
                     ProgrammingLanguages="C#, TypeScript",
                     Databases = "SQL Server",
-                    UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, Vue.js, Babylon.js",
+                    UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, Vue.js, WebGL, Babylon.js",
                     Type = "Web-based",
                     Description = @"This is a complete sea port automation system used at Mongla Port. Modules for this system are Container Yard, Transit Shed and Port Billing etc. Integration with ASYCUDA through IGM."
                 },

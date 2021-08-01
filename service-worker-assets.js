@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-xms0KyH3FeQxkALuOKcgXZbO339wOEsUcz0VfMylnf0=",
+      "hash": "sha256-N8T+qgjvM6ypvO2usqIWncyoipHHuL3hv9fDdSAc9VI=",
       "url": "css\/app.css"
     },
     {
@@ -197,7 +197,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-Jt18M6jnQ8fLKkRSKSKTCmMA8Xl9ME8o4zXYLeJ2tPU=",
+      "hash": "sha256-RR4bzs+uZlcdsOC1cleWkFABMmaMsIYF+VaTeu3GON0=",
       "url": "_framework\/DFACV.dll"
     },
     {
@@ -273,7 +273,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-1ra9paQM40aO7zXdlQRUemLME2wf61dtfglLypAZfNY=",
+      "hash": "sha256-2xB0d8VqWgzf1joMAQ\/JYePjAGCS+1rBSL9UMIJXOI4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -281,5 +281,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "oTSXswan"
+  "version": "ed+A8z+5"
 };

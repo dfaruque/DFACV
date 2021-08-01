@@ -67,12 +67,12 @@ namespace DFACV.Models
                         new SkillItem {
                             Name = "C#",
                             StartDate = new DateTime(2012, 1, 1),
-                            Strength = SkillStrength.Advanced
+                            Strength = SkillStrength.Expert
                         },
                         new SkillItem {
                             Name = "TypeScript",
                             StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Advanced
+                            Strength = SkillStrength.Expert
                         },
                         new SkillItem {
                             Name = "JavaScript",
@@ -121,7 +121,7 @@ namespace DFACV.Models
                                 new SkillItem {
                                     Name = "ASP.NET",
                                     StartDate = new DateTime(2012, 1, 1),
-                                    Strength = SkillStrength.Advanced
+                                    Strength = SkillStrength.Expert
                                 },
                                 new SkillItem {
                                     Name = "Serenity.is",
@@ -131,7 +131,7 @@ namespace DFACV.Models
                                 new SkillItem {
                                     Name = "Node.js",
                                     StartDate = new DateTime(2016, 1, 1),
-                                    Strength = SkillStrength.Expert
+                                    Strength = SkillStrength.Intermediate
                                 }
                             }
                         },
@@ -141,7 +141,7 @@ namespace DFACV.Models
                                 new SkillItem {
                                     Name = "HTML",
                                     StartDate = new DateTime(2012, 1, 1),
-                                    Strength = SkillStrength.Intermediate
+                                    Strength = SkillStrength.Expert
                                 },
                                 new SkillItem {
                                     Name = "CSS",

@@ -22,10 +22,10 @@ namespace DFACV.Models
 
     public enum SkillStrength
     {
-        None = 0,
         Beginner = 1,
         Intermediate = 2,
         Advanced = 3,
-        Expert = 4
+        Expert = 4,
+        Master = 5
     }
 }

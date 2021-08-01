@@ -100,10 +100,29 @@ h1.name {
 }
 
 .badge-skill {
-    font-size: 85%;
     margin-left: .15rem;
     margin-right: .15rem;
     -webkit-print-color-adjust: exact;
+}
+
+.badge-skill-1, .badge-skill-Beginner {
+    font-size: 65%;
+}
+
+.badge-skill-2, .badge-skill-Intermediate {
+    font-size: 75%;
+}
+
+.badge-skill-3, .badge-skill-Advanced {
+    font-size: 85%;
+}
+
+.badge-skill-4, .badge-skill-Expert {
+    font-size: 95%;
+}
+
+.badge-skill-5, .badge-skill-Master {
+    font-size: 100%;
 }
 
 ul.timeline {

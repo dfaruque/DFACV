@@ -141,7 +141,7 @@ namespace DFACV.Models
                                 new SkillItem {
                                     Name = "HTML",
                                     StartDate = new DateTime(2012, 1, 1),
-                                    Strength = SkillStrength.Expert
+                                    Strength = SkillStrength.Intermediate
                                 },
                                 new SkillItem {
                                     Name = "CSS",

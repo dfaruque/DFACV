@@ -111,10 +111,12 @@
             <section>
                 <h4 class="legend"><i class="fa fa-list"></i> Projects</h4>
                 <div class="list-group list-group-flush">
+                    @{ int projectNumber = 1;}
+
                     @foreach (var item in Model.Projects)
                     {
                         <div class="list-group-item pl-0" style="break-inside: avoid;">
-                            <h5>@item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                            <h5>@(projectNumber++). @item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="text-justify">@item.Description</div>

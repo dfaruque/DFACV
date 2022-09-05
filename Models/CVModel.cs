@@ -26,154 +26,154 @@ namespace DFACV.Models
         {
             Name = "Deowan Faruque Ahamed";
             FunctionTitle = "Senior Software Engineer | Full-stack .NET Developer";
-            Contacts = new List<ContactModel> {
-                //new ContactModel {
+            Contacts = new() {
+                //new() {
                 //    Type = ContactType.ResidencialAddress,
                 //    Value = "Dag#8380, Barua (Paschim Para), Khilkhet, Dhaka-1229, Bangladesh"
                 //},
-                new ContactModel {
+                new() {
                     Type = ContactType.Location,
                     Value = "Dhaka, Bangladesh"
                 },
-                new ContactModel {
+                new() {
                     Type = ContactType.Email,
                     Value = "dfaruque@gmail.com"
                 },
-                new ContactModel {
+                new() {
                     Type = ContactType.Mobile,
                     Value = "+880 1734 588 155"
                 },
-                new ContactModel {
+                new() {
                     Type = ContactType.Skype,
                     Value = "d.faruque"
                 },
             };
-            SocialMedias = new List<SocialMediaModel> {
-                new SocialMediaModel {
+            SocialMedias = new() {
+                new() {
                     Type = SocialMediaType.Github,
                     Value = "dfaruque"
                 },
-                new SocialMediaModel {
+                new() {
                     Type = SocialMediaType.LinkedIn,
                     Value = "dfaruque"
                 }
             };
             Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations.";
 
-            Skills = new List<SkillGroup> {
-                new SkillGroup {
+            Skills = new() {
+                new() {
                     Name = "Programming Languages",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
+                    Items = new() {
+                        new() {
                             Name = "C#",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Expert
                         },
-                        new SkillItem {
+                        new() {
                             Name = "TypeScript",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Expert
                         },
-                        new SkillItem {
+                        new() {
                             Name = "JavaScript",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Advanced
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Python",
                             StartDate = new DateTime(2019, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                     }
                 },
-                new SkillGroup {
+                new() {
                     Name = "Databases",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
+                    Items = new() {
+                        new() {
                             Name = "MS SQL Server",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Advanced
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Oracle",
                             StartDate = new DateTime(2015, 1, 1),
                             Strength = SkillStrength.Advanced
                         },
-                        new SkillItem {
+                        new() {
                             Name = "MySQL",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Redis",
                             StartDate = new DateTime(2019, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                     }
                 },
-                new SkillGroup {
+                new() {
                     Name = "Web-development",
-                    Items = new List<SkillItem> { },
-                    SkillSubGroups = new List<SkillGroup> {
-                        new SkillGroup {
+                    Items = new() { },
+                    SkillSubGroups = new() {
+                        new() {
                             Name = "Back-end",
-                            Items = new List<SkillItem> {
-                                new SkillItem {
+                            Items = new() {
+                                new() {
                                     Name = "ASP.NET",
                                     StartDate = new DateTime(2012, 1, 1),
                                     Strength = SkillStrength.Expert
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "Serenity.is",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Expert
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "Node.js",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 }
                             }
                         },
-                        new SkillGroup {
+                        new() {
                             Name = "Front-end",
-                            Items = new List<SkillItem> {
-                                new SkillItem {
+                            Items = new() {
+                                new() {
                                     Name = "HTML",
                                     StartDate = new DateTime(2012, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "CSS",
                                     StartDate = new DateTime(2012, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "jQuery",
                                     StartDate = new DateTime(2012, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "Bootstrap.css",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "Angular.js",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "Vue.js",
                                     StartDate = new DateTime(2016, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "React.js",
                                     StartDate = new DateTime(2018, 1, 1),
                                     Strength = SkillStrength.Intermediate
                                 },
-                                new SkillItem {
+                                new() {
                                     Name = "Blazor",
                                     StartDate = new DateTime(2020, 1, 1),
                                     Strength = SkillStrength.Intermediate
@@ -182,90 +182,90 @@ namespace DFACV.Models
                         }
                     },
                 },
-                new SkillGroup {
+                new() {
                     Name = "Desktop-development",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
+                    Items = new() {
+                        new() {
                             Name = "WinForms",
                             StartDate = new DateTime(2010, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "WPF",
                             StartDate = new DateTime(2014, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Electron.js",
                             StartDate = new DateTime(2017, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }
                     }
                 },
-                new SkillGroup {
+                new() {
                     Name = "Mobile-development",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
+                    Items = new() {
+                        new() {
                             Name = "Xamarin",
                             StartDate = new DateTime(2018, 1, 1),
                             Strength = SkillStrength.Beginner
                         }
                     }
                 },
-                new SkillGroup {
+                new() {
                     Name = "Testing-frameworks",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
+                    Items = new() {
+                        new() {
                             Name = "NUnit / xUnit / MSTest",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "SpecFlow",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Selenium",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }
                     }
                 },
-                new SkillGroup {
+                new() {
                     Name = "Others",
-                    Items = new List<SkillItem> {
-                        new SkillItem {
+                    Items = new() {
+                        new() {
                             Name = "Git",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "OpenCV",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Babylon.js",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "WebGL",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Tesseract OCR",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Dapper",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new SkillItem {
+                        new() {
                             Name = "Entity Framework",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
@@ -274,8 +274,8 @@ namespace DFACV.Models
                 },
             };
 
-            Experiences = new List<ExperienceModel> {
-                new ExperienceModel {
+            Experiences = new() {
+                new() {
                     Title = "Senior Software Engineer",
                     CompanyName = "TechnoVista Limited",
                     CompanyWebUrl = "https://technovista.com.bd/",
@@ -286,7 +286,7 @@ namespace DFACV.Models
                     "<div>→ Collecting client requirements and convert them to the technical solution.</div>" +
                     "<div>→ As a project development lead, help juniors to understand and perform their tasks.</div>"
                 },
-                new ExperienceModel {
+                new() {
                     Title = "Software Engineer",
                     CompanyName = "TechnoVista Limited",
                     CompanyWebUrl = "https://technovista.com.bd/",
@@ -297,7 +297,7 @@ namespace DFACV.Models
                     "<div>→ Understood business and developed accordingly.</div>" +
                     "<div>→ Got performance award!</div>"
                 },
-                new ExperienceModel {
+                new() {
                     Title = "Software Developer",
                     CompanyName = "Unisoft Systems Limited",
                     CompanyWebUrl = "http://www.uslbd.com/",
@@ -309,8 +309,8 @@ namespace DFACV.Models
                 },
             };
 
-            Educations = new List<EducationModel> {
-                new EducationModel {
+            Educations = new() {
+                new() {
                     Title = "Bachelor of Computer Science and Engineering (CSE)",
                     InstituteName = "University of Information Technology and Sciences (UITS)",
                     City = "Dhaka",
@@ -318,7 +318,7 @@ namespace DFACV.Models
                     EndDate = new DateTime(2014, 8, 30),
                     Result = "CGPA 3.67 (Out of Scale 4) ─ Got scholarships in several semesters"
                 },
-                new EducationModel {
+                new() {
                     Title = "Higher Secondary Certificate (H.S.C)",
                     InstituteName = "Porsha Degree College",
                     City = "Porsha, Naogaon",
@@ -326,7 +326,7 @@ namespace DFACV.Models
                     EndDate = new DateTime(2010, 3, 1),
                     Result = "GPA 3.50 (Out of Scale 5)"
                 },
-                new EducationModel {
+                new() {
                     Title = "Secondary School Certificate (S.S.C)",
                     InstituteName = "Sapahar Pilot High School",
                     City = "Sapahar, Naogaon",
@@ -336,8 +336,8 @@ namespace DFACV.Models
                 },
             };
 
-            Projects = new List<ProjectModel> {
-                new ProjectModel {
+            Projects = new() {
+                new() {
                     Title = "Integrated Centralized Billing System for Palli Bidyut Samities",
                     Role = "Analyst & Development Lead",
                     StartDate = new DateTime(2019, 3, 1),
@@ -350,7 +350,7 @@ namespace DFACV.Models
                     Type = "Web-based",
                     Description = @"This is a complete billing system used at Bangladesh Rural Electrification Board (BREB). Modules for this system are Electricity Meter Reading by Image Capturing, Consumer Management, Billing, Collection, and Accounting"
                 },
-                new ProjectModel {
+                new() {
                     Title = "Port Automation System",
                     Role = "Analyst & Development Lead",
                     StartDate = new DateTime(2016, 7, 1),
@@ -363,7 +363,7 @@ namespace DFACV.Models
                     Type = "Web-based",
                     Description = @"This is a complete sea port automation system used at Mongla Port. Modules for this system are Container Yard, Transit Shed and Port Billing etc. Integration with ASYCUDA through IGM."
                 },
-                new ProjectModel {
+                new() {
                     Title = "E-Licensing System",
                     Role = "Analyst & Development Lead",
                     StartDate = new DateTime(2017, 7, 1),
@@ -377,7 +377,7 @@ namespace DFACV.Models
                     Description = @"Online licensing and approval system for any business entities of Power/Gas/Petroleum Production, Transition or Distribution Companies",
                     ProjectUrl = "http://elicense.berc.org.bd/"
                 },
-                new ProjectModel {
+                new() {
                     Title = "IATI Import Module",
                     Role = "Developer",
                     StartDate = new DateTime(2016, 1, 1),
@@ -393,7 +393,7 @@ namespace DFACV.Models
                     ProjectSource = "https://github.com/BD-IATI/edi",
                     ProjectDoc = "http://bd-iati.github.io/",
                 },
-                new ProjectModel {
+                new() {
                     Title = "Security (User Management) Module",
                     Role = "Main Developer",
                     StartDate = new DateTime(2016, 3, 1),
@@ -406,7 +406,7 @@ namespace DFACV.Models
                     Type = "Web-based",
                     Description = @"This is a cross database, single-sign-on (SSO) user management module which can be integrated with any project",
                 },
-                new ProjectModel {
+                new() {
                     Title = "Warehouse and Inventory Management System (WIMS)",
                     Role = "Developer",
                     StartDate = new DateTime(2016, 1, 1),
@@ -419,7 +419,7 @@ namespace DFACV.Models
                     Type = "Web-based",
                     Description = @"Enhancing WIMS by adding new features like: Automatic item re-order and requisition system, item issue trend analysis; Real time integration WIMS-LMS (Loyalty Management System) a gift distribution system of Banglalink through WCF service",
                 },
-                new ProjectModel {
+                new() {
                     Title = "UniERP Business Solutions",
                     Role = "Main Developer",
                     StartDate = new DateTime(2014, 11, 1),
@@ -432,7 +432,7 @@ namespace DFACV.Models
                     Type = "Web-based",
                     Description = @"Solution to the all business needs including Finances, Human resources, Manufacturing, Supply chain and etc.",
                 },
-                new ProjectModel {
+                new() {
                     Title = "Restricted Logon System",
                     Role = "Analyst & Development Lead",
                     StartDate = new DateTime(2013, 8, 1),
@@ -465,7 +465,7 @@ Developed some applications with my own interest.
                  */
             };
 
-            Features = new List<string> {
+            Features = new() {
                 ExperienceYears + "+ years of professional software development experience",
                 ProgrammingExperienceYears + "+ years of programming experience",
                 "Like to write clean and maintainable code",
@@ -476,17 +476,15 @@ Developed some applications with my own interest.
                 "Experience to work remotely"
             };
 
-            References = new List<ReferenceModel> {
-                new ReferenceModel
-                {
+            References = new() {
+                new() {
                     Name = "Firoz Ahmed",
                     Position = "Senior Software Engineer",
                     Organization = "TechnoVista Limited",
                     Contact = "+880 1723 427 588",
                     Email = "firoz7588@gmail.com"
                 },
-                new ReferenceModel
-                {
+                new() {
                     Name = "Md. Shakhawat Hossain",
                     Position = "ICT Specialist",
                     Organization = "Local Government Engineering Department (LGED)",

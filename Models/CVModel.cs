@@ -105,7 +105,7 @@ namespace DFACV.Models
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
-                            Name = "NoSQL (MongoDB, etc.)",
+                            Name = "Redis",
                             StartDate = new DateTime(2019, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
@@ -261,12 +261,12 @@ namespace DFACV.Models
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
-                            Name = "Entity Framework",
+                            Name = "Dapper",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                         new SkillItem {
-                            Name = "Dapper",
+                            Name = "Entity Framework",
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         }
@@ -345,7 +345,7 @@ namespace DFACV.Models
                     ClientName = "Bangladesh Rural Electrification Board (BREB)",
                     ClientCity = "Dhaka",
                     ProgrammingLanguages="C#, TypeScript",
-                    Databases = "Oracle, Couchbase",
+                    Databases = "Oracle, Redis",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
                     Description = @"This is a complete billing system used at Bangladesh Rural Electrification Board (BREB). Modules for this system are Electricity Meter Reading by Image Capturing, Consumer Management, Billing, Collection, and Accounting"
@@ -414,7 +414,7 @@ namespace DFACV.Models
                     ClientName = "Banglalink Digital Communication System",
                     ClientCity = "Dhaka",
                     ProgrammingLanguages="C#, JavaScript",
-                    Databases = "SQL Server",
+                    Databases = "Oracle",
                     UsedTechnologies = "ASP.NET Web Forms, WCF",
                     Type = "Web-based",
                     Description = @"Enhancing WIMS by adding new features like: Automatic item re-order and requisition system, item issue trend analysis; Real time integration WIMS-LMS (Loyalty Management System) a gift distribution system of Banglalink through WCF service",

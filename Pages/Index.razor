@@ -80,8 +80,7 @@
                 </ul>
             </section>
 
-            <br />
-            <section>
+            <section class="mt-2">
                 <h4 class="legend"><i class="fa fa-briefcase"></i> Experience <span class="badge badge-success">@Model.ExperienceYears+ Years</span></h4>
                 <ul class="timeline pl-3">
                     @foreach (var item in Model.Experiences)
@@ -95,7 +94,7 @@
                 </ul>
             </section>
 
-            <section>
+            <section class="mt-2">
                 <h4 class="legend"><i class="fa fa-graduation-cap"></i> Education</h4>
                 <ul class="timeline pl-3">
                     @foreach (var item in Model.Educations)
@@ -109,8 +108,7 @@
                 </ul>
             </section>
 
-            <br />
-            <section>
+            <section class="mt-2">
                 <h4 class="legend"><i class="fa fa-list"></i> Projects</h4>
                 <div class="list-group list-group-flush">
                     @{ int projectNumber = 1;}
@@ -140,9 +138,7 @@
                 </div>
             </section>
 
-            <br />
-
-            <section>
+            <section class="mt-2">
                 <h4 class="legend"><i class="fa fa-link"></i> References</h4>
                 <div class="row pl-4">
                     @foreach (var item in Model.References)

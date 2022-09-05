@@ -1,4 +1,3 @@
-/* /Shared/EmptyLayout.razor.rz.scp.css */
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-lpta8bvvza] {
     position: relative;
@@ -48,19 +47,3 @@
         padding-right: 1.5rem !important;
     }
 }
-/* /Shared/Sidebar.razor.rz.scp.css */
-.oi[b-s0jme9zzfr] {
-    width: 1.5rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -1px;
-}
-
-.photo[b-s0jme9zzfr] {
-    text-align: center;
-}
-
-    .photo img[b-s0jme9zzfr] {
-        border-radius: 10%;
-    }
-

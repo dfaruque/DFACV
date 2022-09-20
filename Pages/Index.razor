@@ -86,8 +86,8 @@
                     @foreach (var item in Model.Experiences)
                     {
                         <li>
-                            <h5>@item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
-                            <div>@item.CompanyName, @item.City</div>
+                            <h5>@item.Title <small class="period"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <div class="clear-both">@item.CompanyName, @item.City</div>
                             <div>@((MarkupString)item.Description)</div>
                         </li>
                     }
@@ -100,8 +100,8 @@
                     @foreach (var item in Model.Educations)
                     {
                         <li>
-                            <h5>@item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
-                            <div>@item.InstituteName, @item.City</div>
+                            <h5>@item.Title <small class="period"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <div class="clear-both">@item.InstituteName, @item.City</div>
                             <div>@item.Result</div>
                         </li>
                     }
@@ -116,8 +116,8 @@
                     @foreach (var item in Model.Projects)
                     {
                         <div class="list-group-item pl-0" style="break-inside: avoid;">
-                            <h5>@(projectNumber++). @item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.Period</small></h5>
-                            <div class="row">
+                            <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                            <div class="row clear-both">
                                 <div class="col-md-6">
                                     <div class="text-justify">@item.Description</div>
                                     @*<div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>*@

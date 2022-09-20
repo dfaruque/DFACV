@@ -118,15 +118,15 @@
                         <div class="list-group-item pl-0" style="break-inside: avoid;">
                             <h5>@(projectNumber++). @item.Title <small class="pull-right-md"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                             <div class="row">
-                                <div class="col-md-7">
+                                <div class="col-md-6">
                                     <div class="text-justify">@item.Description</div>
-                                    <div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>
+                                    @*<div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>*@
                                     @if (!string.IsNullOrEmpty(item.ProjectUrl))
                                     {
                                         <div><strong>URL: </strong>@item.ProjectUrl</div>
                                     }
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-6">
                                     <div><strong>Role: </strong>@item.Role</div>
                                     <div><strong>Languages: </strong>@item.ProgrammingLanguages</div>
                                     <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>

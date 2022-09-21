@@ -12,6 +12,7 @@ namespace DFACV.Models
         public string Profile { get; set; }
         public List<string> Features { get; set; }
         public List<SkillGroup> Skills { get; set; }
+        public List<CommunicationLanguageModel> CommunicationLanguages { get; set; }
         public List<ExperienceModel> Experiences { get; set; }
         public List<EducationModel> Educations { get; set; }
         public List<ProjectModel> Projects { get; set; }
@@ -272,6 +273,12 @@ namespace DFACV.Models
                         }
                     }
                 },
+            };
+
+            CommunicationLanguages = new() {
+                new() { Name = "Bengali", CommunicationLanguageLevel = CommunicationLanguageLevel.Native },
+                new() { Name = "English", CommunicationLanguageLevel = CommunicationLanguageLevel.Professional },
+                new() { Name = "Arabic", CommunicationLanguageLevel = CommunicationLanguageLevel.Elementary },
             };
 
             Experiences = new() {

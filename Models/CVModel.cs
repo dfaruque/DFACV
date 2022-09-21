@@ -16,6 +16,7 @@ namespace DFACV.Models
         public List<ExperienceModel> Experiences { get; set; }
         public List<EducationModel> Educations { get; set; }
         public List<ProjectModel> Projects { get; set; }
+        public List<AwardModel> Awards { get; set; }
         public List<ContactModel> Contacts { get; set; }
         public List<SocialMediaModel> SocialMedias { get; set; }
         public List<ReferenceModel> References { get; set; }
@@ -470,6 +471,14 @@ https://www.nuget.org/packages/Serenity.Extra
 Beginning programming with VB6 at school life (since 2006).
 Developed some applications with my own interest.
                  */
+            };
+
+            Awards = new() {
+                new() {
+                    Name = "Performance Award",
+                    Year = 2017,
+                    GivenBy = "TechnoVista Limited"
+                },
             };
 
             Features = new() {

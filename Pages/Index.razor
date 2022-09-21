@@ -69,6 +69,19 @@
             </ul>
         </section>
 
+        <section class="mt-4">
+            <h4 class="legend"><i class="fa fa-trophy"></i> Awards</h4>
+            <ul style="padding-left: 0.4em; list-style-type: none; " class="text-success">
+                @foreach (var award in Model.Awards)
+                {
+                    <li>
+                        @award.Name <br />
+                        <small>&mdash;@award.GivenBy <i class="fa fa-calendar"></i> @award.Year</small>
+                    </li>
+                }
+            </ul>
+        </section>
+
     </div>
 
     <div class="main">

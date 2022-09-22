@@ -56,17 +56,17 @@
                             </dd>
                         }
                 }
-            </dl>
-        </section>
 
-        <section class="mt-4">
-            <h4 class="legend"><i class="fa fa-language"></i> Communication Languages</h4>
-            <ul style="padding-left: 0.4em; list-style-type: none; " class="text-success">
-                @foreach (var language in Model.CommunicationLanguages)
-                {
-                    <li>@language.Name<small>&mdash;@language.CommunicationLanguageLevel.ToString()</small></li>
-                }
-            </ul>
+                <dt class="skill-group-name mt-4"><i class="fa fa-language"></i> Communication Languages</dt>
+                <dd>
+                    <ul class="text-success">
+                        @foreach (var language in Model.CommunicationLanguages)
+                        {
+                            <li>@language.Name <small>&mdash; @language.CommunicationLanguageLevel.ToString()</small></li>
+                        }
+                    </ul>
+                </dd>
+            </dl>
         </section>
 
         <section class="mt-4">

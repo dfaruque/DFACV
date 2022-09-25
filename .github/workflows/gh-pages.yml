@@ -24,7 +24,13 @@ jobs:
       run: dotnet publish DFACV.csproj -c:Release -o:release -p:GHPages=true --nologo
 
     - name: Removed <script src="_framework/blazor.webassembly.js" autostart="false"></script> from index.html
-      run: sed -i 's/<script src="_framework\/blazor.webassembly.js" autostart="false"><\/script>/removed blazor.webassembly.js ref/g' release/wwwroot/index.html
+      run: sed -i 's/<script src="_framework\/blazor.webassembly.js" autostart="false"><\/script>/ /g' release/wwwroot/index.html
+
+    - name: Removed <script src="decode.min.js"></script> from index.html
+      run: sed -i 's/<script src="decode.min.js"><\/script>/ /g' release/wwwroot/index.html
+
+    - name: Removed <script src="brotliloader.min.js"></script> from index.html
+      run: sed -i 's/<script src="brotliloader.min.js"><\/script>/ /g' release/wwwroot/index.html
     
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html

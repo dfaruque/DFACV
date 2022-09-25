@@ -1,25 +1,26 @@
-using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
+using DFACV;
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace DFACV
+var builder = WebAssemblyHostBuilder.CreateDefault(args);
+
+//Added the condition that determine root components are already registered via prerednered HTML contents.
+if (!builder.RootComponents.Any())
 {
-    public class Program
-    {
-        public static async Task Main(string[] args)
-        {
-            var builder = WebAssemblyHostBuilder.CreateDefault(args);
-            builder.RootComponents.Add<App>("#app");
-
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
-            await builder.Build().RunAsync();
-        }
-    }
+    builder.RootComponents.Add<App>("#app");
+    builder.RootComponents.Add<HeadOutlet>("head::after");
 }
+
+ConfigureServices(builder.Services, builder.HostEnvironment.BaseAddress);
+
+await builder.Build().RunAsync();
+
+static void ConfigureServices(IServiceCollection services, string baseAddress)
+{
+    services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(baseAddress) });
+}
+

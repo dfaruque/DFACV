@@ -46,6 +46,10 @@ namespace DFACV.Models
                     Value = "+880 1734 588 155"
                 },
                 new() {
+                    Type = ContactType.Website,
+                    Value = "dfaruque.github.io"
+                },
+                new() {
                     Type = ContactType.Skype,
                     Value = "d.faruque"
                 },

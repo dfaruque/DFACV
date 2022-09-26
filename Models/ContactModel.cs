@@ -22,6 +22,9 @@ namespace DFACV.Models
                     case ContactType.Skype:
                         iconClass = "skype";
                         break;
+                    case ContactType.Website:
+                        iconClass = "globe";
+                        break;
                     case ContactType.Email:
                         iconClass = "envelope";
                         break;
@@ -42,9 +45,10 @@ namespace DFACV.Models
     public enum ContactType
     {
         Mobile = 0,
-        Skype = 1,
-        Email = 2,
-        Location = 3,
-        ResidencialAddress = 4,
+        Website = 1,
+        Skype = 2,
+        Email = 3,
+        Location = 4,
+        ResidencialAddress = 5,
     }
 }

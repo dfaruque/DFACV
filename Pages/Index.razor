@@ -18,7 +18,16 @@
                 {
                     <tr>
                         <td><i class="fa fa-lg fa-@item.IconClass text-success"></i></td>
-                        <td>@item.Value</td>
+                        <td>
+                            @if (item.Type == Models.ContactType.Website)
+                            {
+                                <a href="https://@item.Value" style="text-decoration:none; color:black;">@item.Value</a>
+                            }
+                            else
+                            {
+                                @item.Value
+                            }
+                        </td>
                     </tr>
                 }
                 @foreach (var item in Model.SocialMedias)

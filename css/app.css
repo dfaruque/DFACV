@@ -56,6 +56,7 @@ html, body {
 
 .name {
     font-variant: small-caps;
+    font-size: 3rem;
 }
 
 .clear-both {
@@ -130,12 +131,18 @@ h1.name {
 
 .badge-primary {
     background-color: var(--primary) !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.badge-experience-year {
+    background-color: unset !important;
+    color: unset !important;
+    border: 1px solid;
+    padding-top: .35em;
 }
 
 .badge-skill {
-    margin-left: .15rem;
-    margin-right: .15rem;
-    -webkit-print-color-adjust: exact;
+    margin: .15rem;
 }
 
 .badge-skill-1, .badge-skill-Beginner {

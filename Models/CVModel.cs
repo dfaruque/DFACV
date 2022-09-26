@@ -69,6 +69,7 @@ namespace DFACV.Models
             Skills = new() {
                 new() {
                     Name = "Programming Languages",
+                    IconClass = "code",
                     Items = new() {
                         new() {
                             Name = "C#",
@@ -94,6 +95,7 @@ namespace DFACV.Models
                 },
                 new() {
                     Name = "Databases",
+                    IconClass = "database",
                     Items = new() {
                         new() {
                             Name = "MS SQL Server",
@@ -119,10 +121,12 @@ namespace DFACV.Models
                 },
                 new() {
                     Name = "Web-development",
+                    IconClass = "globe",
                     Items = new() { },
                     SkillSubGroups = new() {
                         new() {
                             Name = "Back-end",
+                            IconClass = "server",
                             Items = new() {
                                 new() {
                                     Name = "ASP.NET",
@@ -143,6 +147,7 @@ namespace DFACV.Models
                         },
                         new() {
                             Name = "Front-end",
+                            IconClass = "window-maximize",
                             Items = new() {
                                 new() {
                                     Name = "HTML",
@@ -190,6 +195,7 @@ namespace DFACV.Models
                 },
                 new() {
                     Name = "Desktop-development",
+                    IconClass = "desktop",
                     Items = new() {
                         new() {
                             Name = "WinForms",
@@ -210,6 +216,7 @@ namespace DFACV.Models
                 },
                 new() {
                     Name = "Mobile-development",
+                    IconClass = "mobile",
                     Items = new() {
                         new() {
                             Name = "Xamarin",
@@ -220,6 +227,7 @@ namespace DFACV.Models
                 },
                 new() {
                     Name = "Testing-frameworks",
+                    IconClass = "flask",
                     Items = new() {
                         new() {
                             Name = "NUnit / xUnit / MSTest",

@@ -8,6 +8,7 @@ namespace DFACV.Models
     public class SkillGroup
     {
         public string Name { get; set; }
+        public string IconClass { get; set; }
         public List<SkillGroup> SkillSubGroups { get; set; }
         public List<SkillItem> Items { get; set; }
     }
@@ -15,6 +16,7 @@ namespace DFACV.Models
     public class SkillItem
     {
         public string Name { get; set; }
+        public string IconClass { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public SkillStrength Strength { get; set; }

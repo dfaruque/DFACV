@@ -45,7 +45,7 @@
             <dl>
                 @foreach (var skill in Model.Skills)
                 {
-                    <dt class="skill-group-name">@skill.Name</dt>
+                    <dt class="skill-group-name"><i class="fa fa-@skill.IconClass"></i> @skill.Name</dt>
                     <dd>
                         @foreach (var item in skill.Items)
                         {
@@ -57,7 +57,7 @@
                         foreach (var subItem in skill.SkillSubGroups)
                         {
                             <dd>
-                                <strong class="skill-subgroup-name">@subItem.Name:</strong>
+                                <strong class="skill-subgroup-name"><i class="fa fa-@subItem.IconClass"></i> @subItem.Name:</strong>
                                 @foreach (var item in subItem.Items)
                                 {
                                     <span class="badge badge-success badge-skill badge-skill-@item.Strength">@item.Name</span>

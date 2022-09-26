@@ -17,7 +17,7 @@
                 @foreach (var item in Model.Contacts)
                 {
                     <tr>
-                        <td><i class="fa fa-lg fa-@item.IconClass text-success"></i></td>
+                        <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
                         <td>
                             @if (item.Type == Models.ContactType.Website)
                             {
@@ -33,7 +33,7 @@
                 @foreach (var item in Model.SocialMedias)
                 {
                     <tr>
-                        <td><i class="fa fa-lg fa-@item.IconClass text-success"></i></td>
+                        <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
                         <td>/@item.Value</td>
                     </tr>
                 }
@@ -49,7 +49,7 @@
                     <dd>
                         @foreach (var item in skill.Items)
                         {
-                            <span class="badge badge-success badge-skill badge-skill-@item.Strength">@item.Name</span>
+                            <span class="badge badge-primary badge-skill badge-skill-@item.Strength">@item.Name</span>
                         }
                     </dd>
 
@@ -60,7 +60,7 @@
                                 <strong class="skill-subgroup-name"><i class="fa fa-@subItem.IconClass"></i> @subItem.Name:</strong>
                                 @foreach (var item in subItem.Items)
                                 {
-                                    <span class="badge badge-success badge-skill badge-skill-@item.Strength">@item.Name</span>
+                                    <span class="badge badge-primary badge-skill badge-skill-@item.Strength">@item.Name</span>
                                 }
                             </dd>
                         }
@@ -68,7 +68,7 @@
 
                 <dt class="skill-group-name mt-4"><i class="fa fa-language"></i> Communication Languages</dt>
                 <dd>
-                    <ul class="text-success">
+                    <ul class="text-primary">
                         @foreach (var language in Model.CommunicationLanguages)
                         {
                             <li>@language.Name <small>&mdash; @language.CommunicationLanguageLevel.ToString()</small></li>
@@ -80,7 +80,7 @@
 
         <section class="mt-4">
             <h4 class="legend"><i class="fa fa-trophy"></i> Awards</h4>
-            <ul style="padding-left: 0.4em; list-style-type: none; " class="text-success">
+            <ul style="padding-left: 0.4em; list-style-type: none; " class="text-primary">
                 @foreach (var award in Model.Awards)
                 {
                     <li>
@@ -113,7 +113,7 @@
             </section>
 
             <section class="mt-2">
-                <h4 class="legend"><i class="fa fa-briefcase"></i> Experience <span class="badge badge-success">@Model.ExperienceYears+ Years</span></h4>
+                <h4 class="legend"><i class="fa fa-briefcase"></i> Experience <span class="badge badge-primary">@Model.ExperienceYears+ Years</span></h4>
                 <ul class="timeline pl-3">
                     @foreach (var item in Model.Experiences)
                     {

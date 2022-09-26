@@ -1,5 +1,9 @@
 ﻿@import url('font-awesome/css/font-awesome.min.css');
 
+:root {
+    --primary: #008080;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -44,7 +48,7 @@ html, body {
 
 .top-row, .top-row-sidebar {
     border-bottom: 1px solid;
-    border-color: var(--success);
+    border-color: var(--primary);
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -66,7 +70,7 @@ html, body {
     .sidebar {
         min-width: 250px;
         border-right: 3px solid;
-        border-color: var(--success);
+        border-color: var(--primary);
     }
 
     .top-row {
@@ -99,11 +103,11 @@ html, body {
 }
 
 h1.name {
-    color: var(--success);
+    color: var(--primary);
 }
 
 .legend {
-    color: var(--success);
+    color: var(--primary);
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -111,13 +115,21 @@ h1.name {
 
 .skill-group-name {
     font-weight: 100;
-    color: #28a745;
+    color: var(--primary);
 }
 
 .skill-subgroup-name {
     font-weight: 100;
     font-size: 90%;
-    color: #28a745;
+    color: var(--primary);
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.badge-primary {
+    background-color: var(--primary) !important;
 }
 
 .badge-skill {
@@ -159,7 +171,7 @@ ul.timeline {
 
         ul.timeline li:before {
             content: '';
-            background-color: var(--success);
+            background-color: var(--primary);
             position: absolute;
             bottom: 0;
             top: 0;
@@ -170,7 +182,7 @@ ul.timeline {
 
         ul.timeline li:after {
             content: "\2022";
-            color: var(--success);
+            color: var(--primary);
             font-size: 50px;
             position: absolute;
             left: -7px;

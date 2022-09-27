@@ -291,7 +291,7 @@ namespace DFACV.Models
             CommunicationLanguages = new() {
                 new() { Name = "Bengali", CommunicationLanguageLevel = CommunicationLanguageLevel.Native },
                 new() { Name = "English", CommunicationLanguageLevel = CommunicationLanguageLevel.Professional },
-                new() { Name = "Arabic", CommunicationLanguageLevel = CommunicationLanguageLevel.Elementary },
+                //new() { Name = "Arabic", CommunicationLanguageLevel = CommunicationLanguageLevel.Elementary },
             };
 
             Experiences = new() {

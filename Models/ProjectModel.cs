@@ -22,6 +22,7 @@ namespace DFACV.Models
         public string ProjectSource { get; set; }
         public string ProjectDoc { get; set; }
         public string MoreDescription { get; set; }
+        public string Challenges { get; set; }
 
         public string Period => StartDate.ToString("MMM yyyy") + " - " + (EndDate == null ? "Present" : EndDate?.ToString("MMM yyyy"));
     }

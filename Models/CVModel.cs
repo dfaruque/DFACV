@@ -372,7 +372,8 @@ namespace DFACV.Models
                     "Over 500+ workspaces will be using the system from all over the country. " +
                     "Modules for this system are Electricity Meter Reading by Image Capturing, " +
                     "New Connection Application, Consumer Management, Billing, Collection, and " +
-                    "Accounting management system.",                    
+                    "Accounting management system.",
+                    Challenges = "", //Todo: write some challenges
                 },
                 new() {
                     Title = "Port Automation System",

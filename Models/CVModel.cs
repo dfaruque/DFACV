@@ -368,7 +368,11 @@ namespace DFACV.Models
                     Databases = "Oracle, Redis",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
-                    Description = @"This is a complete billing system used at Bangladesh Rural Electrification Board (BREB). Modules for this system are Electricity Meter Reading by Image Capturing, Consumer Management, Billing, Collection, and Accounting"
+                    Description = "This is a large scale billing system. " +
+                    "Over 500+ workspaces will be using the system from all over the country. " +
+                    "Modules for this system are Electricity Meter Reading by Image Capturing, " +
+                    "New Connection Application, Consumer Management, Billing, Collection, and " +
+                    "Accounting management system.",                    
                 },
                 new() {
                     Title = "Port Automation System",
@@ -381,7 +385,9 @@ namespace DFACV.Models
                     Databases = "SQL Server",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, Vue.js, WebGL, Babylon.js",
                     Type = "Web-based",
-                    Description = @"This is a complete sea port automation system used at Mongla Port. Modules for this system are Container Yard, Transit Shed and Port Billing etc. Integration with ASYCUDA through IGM."
+                    Description = "This is a complete sea port automation system used at Mongla Port. " +
+                    "Modules for this system are Container Yard, Transit Shed and Port Billing etc. " +
+                    "Integration with ASYCUDA through IGM."
                 },
                 new() {
                     Title = "E-Licensing System",
@@ -394,7 +400,8 @@ namespace DFACV.Models
                     Databases = "SQL Server",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
-                    Description = @"Online licensing and approval system for any business entities of Power/Gas/Petroleum Production, Transition or Distribution Companies",
+                    Description = "Online licensing and approval system for any business entities of " +
+                    "Power/Gas/Petroleum Production, Transition or Distribution Companies",
                     ProjectUrl = "http://elicense.berc.org.bd/"
                 },
                 new() {
@@ -408,7 +415,10 @@ namespace DFACV.Models
                     Databases = "SQL Server, RavenDB",
                     UsedTechnologies = "ASP.NET MVC, Entity Framework, AngularJs",
                     Type = "Web-based",
-                    Description = @"This project integrates AIMS Bangladesh with IATI where Development partners publish their data of aid activities through the International Aid Transparency Initiative (IATI). This project's aim is to start using IATI data in Bangladesh's Aid Information Management System (AIMS) and to improve the quality of the data held in the AIMS and reduce the burden of data collection.",
+                    Description = "This project integrates AIMS Bangladesh with IATI where Development partners " +
+                    "publish their data of aid activities through the International Aid Transparency Initiative (IATI). " +
+                    "This project's aim is to start using IATI data in Bangladesh's Aid Information Management System (AIMS) " +
+                    "and to improve the quality of the data held in the AIMS and reduce the burden of data collection.",
                     ProjectUrl = "http://aims.erd.gov.bd/IATIImportSite",
                     ProjectSource = "https://github.com/BD-IATI/edi",
                     ProjectDoc = "http://bd-iati.github.io/",
@@ -424,7 +434,8 @@ namespace DFACV.Models
                     Databases = "Cross Database (SQL Server/Oracle/MySQL etc.)",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                     Type = "Web-based",
-                    Description = @"This is a cross database, single-sign-on (SSO) user management module which can be integrated with any project",
+                    Description = "This is a cross database, single-sign-on (SSO) user management module " +
+                    "which can be integrated with any project",
                 },
                 new() {
                     Title = "Warehouse and Inventory Management System (WIMS)",
@@ -437,7 +448,9 @@ namespace DFACV.Models
                     Databases = "Oracle",
                     UsedTechnologies = "ASP.NET Web Forms, WCF",
                     Type = "Web-based",
-                    Description = @"Enhancing WIMS by adding new features like: Automatic item re-order and requisition system, item issue trend analysis; Real time integration WIMS-LMS (Loyalty Management System) a gift distribution system of Banglalink through WCF service",
+                    Description = "Enhancing WIMS by adding new features like: Automatic item re-order " +
+                    "and requisition system, item issue trend analysis; Real time integration WIMS-LMS " +
+                    "(Loyalty Management System) a gift distribution system of Banglalink through WCF service",
                 },
                 new() {
                     Title = "UniERP Business Solutions",
@@ -450,7 +463,8 @@ namespace DFACV.Models
                     Databases = "SQL Server/Oracle",
                     UsedTechnologies = "ASP.NET WebForms, Entity Framework, Crystal Reports",
                     Type = "Web-based",
-                    Description = @"Solution to the all business needs including Finances, Human resources, Manufacturing, Supply chain and etc.",
+                    Description = "Solution to the all business needs including Finances, Human resources, " +
+                    "Manufacturing, Supply chain and etc.",
                 },
                 new() {
                     Title = "Restricted Logon System",
@@ -463,7 +477,10 @@ namespace DFACV.Models
                     Databases = "My SQL",
                     UsedTechnologies = ".NET Framework, WinForms and WPF",
                     Type = "Desktop-based",
-                    Description = @"Security-software that can restrict employees to do	unauthorized access of apps and websites, monitor employees’ activity and send screenshots to the server, remotely change the employees’ privileges. It also provides file sharing and chatting facility.",
+                    Description = "Security-software that can restrict employees to do unauthorized " +
+                    "access of apps and websites, monitor employees’ activity and send screenshots to " +
+                    "the server, remotely change the employees’ privileges. It also provides file sharing " +
+                    "and chatting facility.",
                     MoreDescription = @"Features: The features are applicable for specific user or group of users.
 o	Block Applications– Users can run only those apps that are assigned to him and all others apps are blocked. So they cannot waste their office time by playing games or watching movies.
 o	Block websites– This feature helps you to block the specific websites that are used to passing time such as Facebook and twitter etc.

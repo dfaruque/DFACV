@@ -64,7 +64,8 @@ namespace DFACV.Models
                     Value = "dfaruque"
                 }
             };
-            Profile = @"Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations.";
+            Profile = "Strong planner and problem solver who readily adapts to change, works independently and exceeds expectations. " +
+                "Begins programming in school life and dreams to become a Software Engineer.";
 
             Skills = new() {
                 new() {
@@ -526,11 +527,18 @@ Developed some applications with my own interest.
             Features = new() {
                 ExperienceYears + "+ years of professional software development experience",
                 ProgrammingExperienceYears + "+ years of programming experience",
-                "Like to write clean and maintainable code",
-                "Good skills on analyzing requirements, designing, coding and testing",
-                "Knowledge on Object Oriented Programming (OOP) and SOLID principles",
-                "Knowledge with various Database Management Systems including SQL and NoSQL",
-                "Experience to work remotely"
+                "Knowledge of Object Oriented Programming (OOP)",
+                "Follows software design principles SOLID, DRY, and KISS",
+                "Strictly maintains coding conventions to write clean and maintainable software",
+                "Good skills in analyzing requirements, designing, coding, and testing",
+                "Experience in database design, and performance tuning",
+                "Works in various sizes of projects small to large scale",
+                "Knowledge in preventing various web security threats and attacks such as XSRF/CSRF, XSS, SQL Injection, DDoS attack, etc.",
+                "Knowledge of Image processing and Computer Vision",
+                "Experience in data extraction and transformation from Image, PDF, and Excel files",
+                "Ability to jump into any problem and able to develop “outside the box” solutions",
+                "Experience to work remote environment",
+                "Contributes to open source projects. Notably Serenity platform",
             };
 
             References = new() {

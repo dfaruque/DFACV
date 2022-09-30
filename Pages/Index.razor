@@ -5,7 +5,7 @@
     <div class="sidebar">
         <div class="top-row-sidebar px-4">
             <h1 class="name">@Model.Name</h1>
-            <h4 class="function-title">@Model.FunctionTitle</h4>
+            <h4 class="function-title text-secondary">@Model.FunctionTitle</h4>
         </div>
 
         <div class="photo mb-3">
@@ -21,7 +21,9 @@
                         <td>
                             @if (item.Type == Models.ContactType.Website)
                             {
-                                <a href="https://@item.Value" style="text-decoration:none; color:black;">@item.Value</a>
+                                <a href="https://@item.Value" style="text-decoration: none; color: #212529;" target="_blank">
+                                    @item.Value
+                                </a>
                             }
                             else
                             {
@@ -96,7 +98,7 @@
     <div class="main">
         <div class="top-row px-4">
             <h1 class="name">@Model.Name</h1>
-            <h4 class="function-title">@Model.FunctionTitle</h4>
+            <h4 class="function-title text-secondary">@Model.FunctionTitle</h4>
         </div>
 
         <div class="content px-4">

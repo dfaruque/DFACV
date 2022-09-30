@@ -100,7 +100,7 @@ namespace DFACV.Models
                         new() {
                             Name = "MS SQL Server",
                             StartDate = new DateTime(2012, 1, 1),
-                            Strength = SkillStrength.Advanced
+                            Strength = SkillStrength.Expert
                         },
                         new() {
                             Name = "Oracle",
@@ -109,6 +109,11 @@ namespace DFACV.Models
                         },
                         new() {
                             Name = "MySQL",
+                            StartDate = new DateTime(2012, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new() {
+                            Name = "SQLite",
                             StartDate = new DateTime(2012, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
@@ -152,22 +157,22 @@ namespace DFACV.Models
                                 new() {
                                     Name = "HTML",
                                     StartDate = new DateTime(2012, 1, 1),
-                                    Strength = SkillStrength.Intermediate
+                                    Strength = SkillStrength.Advanced
                                 },
                                 new() {
                                     Name = "CSS",
                                     StartDate = new DateTime(2012, 1, 1),
-                                    Strength = SkillStrength.Intermediate
+                                    Strength = SkillStrength.Advanced
                                 },
                                 new() {
                                     Name = "jQuery",
                                     StartDate = new DateTime(2012, 1, 1),
-                                    Strength = SkillStrength.Intermediate
+                                    Strength = SkillStrength.Advanced
                                 },
                                 new() {
                                     Name = "Bootstrap.css",
                                     StartDate = new DateTime(2016, 1, 1),
-                                    Strength = SkillStrength.Intermediate
+                                    Strength = SkillStrength.Advanced
                                 },
                                 new() {
                                     Name = "Angular.js",
@@ -232,7 +237,7 @@ namespace DFACV.Models
                         new() {
                             Name = "NUnit / xUnit / MSTest",
                             StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Intermediate
+                            Strength = SkillStrength.Advanced
                         },
                         new() {
                             Name = "SpecFlow",
@@ -247,12 +252,29 @@ namespace DFACV.Models
                     }
                 },
                 new() {
+                    Name = "ORMs",
+                    IconClass = "exchange",
+                    Items = new() {
+                        new() {
+                            Name = "Dapper",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        },
+                        new() {
+                            Name = "Entity Framework",
+                            StartDate = new DateTime(2016, 1, 1),
+                            Strength = SkillStrength.Advanced
+                        }
+                    }
+                },
+                new() {
                     Name = "Others",
+                    IconClass = "square-o",
                     Items = new() {
                         new() {
                             Name = "Git",
                             StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Intermediate
+                            Strength = SkillStrength.Advanced
                         },
                         new() {
                             Name = "OpenCV",
@@ -274,16 +296,6 @@ namespace DFACV.Models
                             StartDate = new DateTime(2016, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
-                        new() {
-                            Name = "Dapper",
-                            StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        },
-                        new() {
-                            Name = "Entity Framework",
-                            StartDate = new DateTime(2016, 1, 1),
-                            Strength = SkillStrength.Intermediate
-                        }
                     }
                 },
             };

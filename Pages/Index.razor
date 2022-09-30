@@ -142,53 +142,56 @@
                 </ul>
             </section>
 
-            <section class="mt-2">
-                <h4 class="legend"><i class="fa fa-list"></i> Projects</h4>
-                <div class="list-group list-group-flush">
-                    @{ int projectNumber = 1;}
-
-                    @foreach (var item in Model.Projects)
-                    {
-                        <div class="list-group-item pl-0" style="break-inside: avoid;">
-                            <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
-                            <div class="row clear-both">
-                                <div class="col-md-6">
-                                    <div class="text-justify">@item.Description</div>
-                                    @*<div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>*@
-                                    @if (!string.IsNullOrEmpty(item.ProjectUrl))
-                                    {
-                                        <div><strong>URL: </strong>@item.ProjectUrl</div>
-                                    }
-                                </div>
-                                <div class="col-md-6">
-                                    <div><strong>Role: </strong>@item.Role</div>
-                                    <div><strong>Languages: </strong>@item.ProgrammingLanguages</div>
-                                    <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>
-                                    <div><strong>Databases: </strong>@item.Databases</div>
-                                </div>
-                            </div>
-                        </div>
-                    }
-                </div>
-            </section>
-
-            <section class="mt-2 hide">
-                <h4 class="legend"><i class="fa fa-link"></i> References</h4>
-                <div class="row pl-4">
-                    @foreach (var item in Model.References)
-                    {
-                        <div class="col-md-5">
-                            <h5>@item.Name</h5>
-                            <div>@item.Position</div>
-                            <div>@item.Organization</div>
-                            <div>@item.Email</div>
-                            <div>@item.Contact</div>
-                        </div>
-                    }
-                </div>
-            </section>
         </div>
     </div>
+</div>
+
+<div class="page m-5">
+    <section class="mt-2">
+        <h4 class="legend"><i class="fa fa-list"></i> Projects</h4>
+        <div class="list-group list-group-flush">
+            @{ int projectNumber = 1;}
+
+            @foreach (var item in Model.Projects)
+            {
+            <div class="list-group-item pl-0" style="break-inside: avoid;">
+                <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
+                <div class="row clear-both">
+                    <div class="col-md-6">
+                        <div class="text-justify">@item.Description</div>
+                        @*<div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>*@
+                        @if (!string.IsNullOrEmpty(item.ProjectUrl))
+                            {
+                        <div><strong>URL: </strong>@item.ProjectUrl</div>
+                            }
+                    </div>
+                    <div class="col-md-6">
+                        <div><strong>Role: </strong>@item.Role</div>
+                        <div><strong>Languages: </strong>@item.ProgrammingLanguages</div>
+                        <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>
+                        <div><strong>Databases: </strong>@item.Databases</div>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </section>
+
+    <section class="mt-2 hide">
+        <h4 class="legend"><i class="fa fa-link"></i> References</h4>
+        <div class="row pl-4">
+            @foreach (var item in Model.References)
+            {
+            <div class="col-md-5">
+                <h5>@item.Name</h5>
+                <div>@item.Position</div>
+                <div>@item.Organization</div>
+                <div>@item.Email</div>
+                <div>@item.Contact</div>
+            </div>
+            }
+        </div>
+    </section>
 </div>
 
 @code{

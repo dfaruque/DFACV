@@ -63,6 +63,10 @@ html, body {
     clear: both;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width: 641px) {
     .page {
         flex-direction: row;

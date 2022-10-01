@@ -111,7 +111,7 @@
                 <ul>
                     @foreach (var item in Model.Features)
                     {
-                        <li>@item</li>
+                        <li>@((MarkupString)item)</li>
                     }
                 </ul>
             </section>

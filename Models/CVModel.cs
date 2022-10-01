@@ -344,7 +344,15 @@ namespace DFACV.Models
 
             Educations = new() {
                 new() {
-                    Title = "Bachelor of Computer Science and Engineering (CSE)",
+                    Title = "Masters in Computer Science and Engineering (CSE)",
+                    InstituteName = "University of Information Technology and Sciences (UITS)",
+                    City = "Dhaka",
+                    StartDate = new DateTime(2021, 9, 1),
+                    //EndDate = new DateTime(2023, 8, 30),
+                    Result = "Running"
+                },
+                new() {
+                    Title = "Bachelor in Computer Science and Engineering (CSE)",
                     InstituteName = "University of Information Technology and Sciences (UITS)",
                     City = "Dhaka",
                     StartDate = new DateTime(2010, 9, 1),
@@ -537,7 +545,7 @@ Developed some applications with my own interest.
                 "Knowledge of Image processing and Computer Vision",
                 "Experience in data extraction and transformation from Image, PDF, and Excel files",
                 "Ability to jump into any problem and able to develop “outside the box” solutions",
-                "Experience to work remote environment",
+                //"Experience to work remote environment",
                 "Contributes to open source projects. Notably Serenity platform",
             };
 

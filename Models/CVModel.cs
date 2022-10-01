@@ -515,14 +515,6 @@ o	Chat– The users can send messages instantly. Supports private and public cha
 o	Protects from viruses– Since this software blocks all unnecessary apps including viruses, so you do not need an antivirus.
 ",
                 },
-                /* Todo: add the following in appropriate place!
-                 * Maintaining a notable gitbub repository and nuget package called Serenity.Extra
-https://github.com/dfaruque/Serenity.Extra
-https://www.nuget.org/packages/Serenity.Extra
-
-Beginning programming with VB6 at school life (since 2006).
-Developed some applications with my own interest.
-                 */
             };
 
             HobbyProjects = new() {

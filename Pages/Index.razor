@@ -1,7 +1,7 @@
 ﻿@page "/"
 @layout MainLayout
 
-<div class="page">
+<div class="page first-page">
     <div class="sidebar pb-0">
         <div class="top-row-sidebar px-4">
             <h1 class="name">@Model.Name</h1>
@@ -177,6 +177,92 @@
                 </div>
             }
         </div>
+    </section>
+
+    <section class="mt-2">
+        <h4 class="legend">
+            <img src="/images/opensource.svg" style="margin-top: -5px;" /> Open-source contributions
+        </h4>
+        <div class="list-group list-group-flush">
+            <div class="list-group-item pl-0">
+                <h5>1. Serenity Platform </h5>
+                <div>
+                    <p>
+                        Serenity is an ASP.NET Core / TypeScript application platform designed to simplify and
+                        shorten development of data-centric business applications with a service based architecture.
+
+                        It aims to make development easier while reducing maintenance costs by avoiding boiler-plate
+                        code, reducing the time spent on repetitive tasks and applying best software design practices.
+                    </p>
+                </div>
+                <p>
+                    <div><strong>Repository: </strong><a href="https://github.com/serenity-is/Serenity">https://github.com/serenity-is/Serenity</a></div>
+                    <div><strong>Website: </strong><a href="https://serenity.is/">https://serenity.is</a></div>
+                    <div>
+                        <strong>Contributions:  </strong>
+                        <ul>
+                            <li>Added support for oracle database</li>
+                            <li>Enhanched code generation</li>
+                            <li>Added method overloads for Sql <code>Sum</code>, <code>Agv</code>, <code>Min</code>, <code>Max</code> etc. which takes <code>IField</code> as parameter</li>
+                            <li>AutoParam consistent after cloning <code>SqlQuery</code></li>
+                            <li>Added <code>ForJson</code> SqlQuery method similar to <code>ForXml</code> method</li>
+                            <li>Handled tabs with empty caption in the generated form</li>
+                            <li>Added selectedItem getter in Select2Editor</li>
+                            <li>Tab title localization in forms</li>
+                            <li>Added Bengali localization</li>
+                            <li>Giving a hint to fix "Specified cast is not valid." exception. </li>
+                            <li>Some minor changes such as look and feel</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="list-group list-group-flush">
+            <div class="list-group-item pl-0">
+                <h5>2. Fluent Migrator </h5>
+                <div>
+                    <p>
+                        Fluent Migrator is a migration framework for .NET
+                        Migrations are a structured way to alter your database schema and are an alternative 
+                        to creating lots of sql scripts that have to be run manually by every developer involved. 
+                        Migrations solve the problem of evolving a database schema for multiple databases 
+                        (for example, the developer's local database, the test database and the production database). 
+                        Database schema changes are described in classes written in C# that can be checked into 
+                        a version control system.
+                    </p>
+                </div>
+                <p>
+                    <div><strong>Repository: </strong><a href="https://github.com/fluentmigrator/fluentmigrator">https://github.com/fluentmigrator/fluentmigrator</a></div>
+                    <div><strong>Website: </strong><a href="https://fluentmigrator.github.io/">https://fluentmigrator.github.io</a></div>
+                    <div>
+                        <strong>Contributions:  </strong>
+                        <ul>
+                            <li>Oracle 12C supports object name max length = 128</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="list-group list-group-flush">
+            <div class="list-group-item pl-0">
+                <h5>3. Open CV Playgound </h5>
+                <div>
+                    <p>
+                        A playground app for testing algorithms in OpenCV
+                    </p>
+                </div>
+                <p>
+                    <div><strong>Repository: </strong><a href="https://github.com/rexcardan/OpenCVPlaygound">https://github.com/rexcardan/OpenCVPlaygound</a></div>
+                    <div>
+                        <strong>Contributions:  </strong>
+                        <ul>
+                            <li>Updated OpenCvSharp to 4.4.0</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+
     </section>
 
     <section class="mt-2 hide">

@@ -69,7 +69,7 @@ html, body {
 }
 
 @media (min-width: 641px) {
-    .page {
+    .first-page {
         flex-direction: row;
     }
 

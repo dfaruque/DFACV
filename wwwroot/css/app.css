@@ -87,6 +87,13 @@ html, body {
         display: none;
     }
 
+    .function-title {
+        letter-spacing: 2px;
+        font-family: 'cascadia code';
+        font-size: unset;
+        font-weight: 300;
+    }
+
     .period {
         float: right;
     }

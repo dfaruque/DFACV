@@ -280,7 +280,7 @@ namespace DFACV.Models
                         },
                         new() {
                             Name = "OpenCV",
-                            StartDate = new DateTime(2016, 1, 1),
+                            StartDate = new DateTime(2018, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                         new() {
@@ -290,12 +290,17 @@ namespace DFACV.Models
                         },
                         new() {
                             Name = "WebGL",
-                            StartDate = new DateTime(2016, 1, 1),
+                            StartDate = new DateTime(2017, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                         new() {
                             Name = "Tesseract OCR",
-                            StartDate = new DateTime(2016, 1, 1),
+                            StartDate = new DateTime(2018, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new() {
+                            Name = "Swagger",
+                            StartDate = new DateTime(2020, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
                     }

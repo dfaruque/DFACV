@@ -173,6 +173,11 @@
                             <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>
                             <div><strong>Databases: </strong>@item.Databases</div>
                         </div>
+                        @if (!string.IsNullOrEmpty(item.MoreDescription))
+                        {
+                            <div class="col-md-12">@((MarkupString)item.MoreDescription)</div>
+                        }
+
                     </div>
                 </div>
             }
@@ -209,6 +214,9 @@
             }
         </div>
     </section>
+</div>
+
+<div class="page m-5">
 
     <section class="mt-4">
         <h4 class="legend">

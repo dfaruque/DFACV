@@ -509,16 +509,17 @@ namespace DFACV.Models
                     "access of apps and websites, monitor employees’ activity and send screenshots to " +
                     "the server, remotely change the employees’ privileges. It also provides file sharing " +
                     "and chatting facility.",
-                    MoreDescription = @"Features: The features are applicable for specific user or group of users.
-o	Block Applications– Users can run only those apps that are assigned to him and all others apps are blocked. So they cannot waste their office time by playing games or watching movies.
-o	Block websites– This feature helps you to block the specific websites that are used to passing time such as Facebook and twitter etc.
-o	Prevent access to specific hard disk drive– Users can only access those disk drives that are assigned to him. If a user have only d: and f: drives then he can only access these drives.
-o	Restrict from using USB drive/Pen drive/CD-DVD drive– USB drives are used to transfer files from one PC to another PC. Prevent using these drives; you can safe valuable data/files.
-o	Automatically capture screenshots and send it to the server– this software capture screenshots of the specific apps at a specific interval and send it to the server. You can see these screenshots whenever you want.
-o	File transferring/sharing– it is easy to transfer files using this software, you have to select a file. The file is automatically uploaded to the server and at the receiver’s PC it is automatically downloaded.
-o	Chat– The users can send messages instantly. Supports private and public chat.
-o	Protects from viruses– Since this software blocks all unnecessary apps including viruses, so you do not need an antivirus.
-",
+                    MoreDescription = @"<b>Features:</b> The features are applicable for specific user or group of users.
+<ul>
+<li><b>Block Applications</b>– Users can run only those apps that are assigned to him and all others apps are blocked. So they cannot waste their office time by playing games or watching movies.</li>
+<li><b>Block websites</b>– This feature helps you to block the specific websites that are used to passing time such as Facebook and twitter etc.</li>
+<li><b>Prevent access to specific hard disk drive</b>– Users can only access those disk drives that are assigned to him. If a user have only d: and f: drives then he can only access these drives.</li>
+<li><b>Restrict from using USB drive/Pen drive/CD-DVD drive</b>– USB drives are used to transfer files from one PC to another PC. Prevent using these drives; you can safe valuable data/files.</li>
+<li><b>Automatically capture screenshots and send it to the server</b>– this software capture screenshots of the specific apps at a specific interval and send it to the server. You can see these screenshots whenever you want.</li>
+<li><b>File transferring/sharing</b>– it is easy to transfer files using this software, you have to select a file. The file is automatically uploaded to the server and at the receiver’s PC it is automatically downloaded.</li>
+<li><b>Chatting</b>– The users can send messages instantly. Supports private and public chat.</li>
+<li><b>Protects from viruses</b>– Since this software blocks all unnecessary apps including viruses, so you do not need an antivirus.</li>
+</ul>",
                 },
             };
 

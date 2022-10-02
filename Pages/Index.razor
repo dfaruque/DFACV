@@ -177,13 +177,13 @@
                         {
                             <div class="col-md-12">@((MarkupString)item.MoreDescription)</div>
                         }
-                        @if (!string.IsNullOrEmpty(item.Responsibilities))
-                        {
-                            <div class="col-md-12"><strong>Responsibilities:</strong>@((MarkupString)item.Responsibilities)</div>
-                        }
                         @if (!string.IsNullOrEmpty(item.Challenges))
                         {
-                            <div class="col-md-12"><strong>Challenges:</strong>@((MarkupString)item.Challenges)</div>
+                            <div class="col-md-6"><strong>Challenges:</strong>@((MarkupString)item.Challenges)</div>
+                        }
+                        @if (!string.IsNullOrEmpty(item.Responsibilities))
+                        {
+                            <div class="col-md-6"><strong>Responsibilities:</strong>@((MarkupString)item.Responsibilities)</div>
                         }
 
                     </div>

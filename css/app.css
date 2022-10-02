@@ -31,6 +31,7 @@ html, body {
     position: relative;
     display: flex;
     flex-direction: column;
+    page-break-before: always;
 }
 
 .sidebar {
@@ -63,14 +64,18 @@ html, body {
     clear: both;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width: 641px) {
-    .page {
+    .first-page {
         flex-direction: row;
     }
 
     .sidebar {
         min-width: 250px;
-        border-right: 3px solid;
+        border-right: 1px solid;
         border-color: var(--primary);
     }
 
@@ -80,6 +85,13 @@ html, body {
 
     .top-row-sidebar {
         display: none;
+    }
+
+    .function-title {
+        letter-spacing: 2px;
+        font-family: 'cascadia code';
+        font-size: unset;
+        font-weight: 300;
     }
 
     .period {

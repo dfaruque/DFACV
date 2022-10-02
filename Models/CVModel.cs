@@ -395,38 +395,39 @@ namespace DFACV.Models
                     Databases = "Oracle, Redis",
                     UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
-                    Description = "This is a large scale billing system. " +
-                    "Over 500+ workspaces will be using the system from all over the country. " +
+                    Description = "A large-scale billing system. " +
+                    "Over 500 workspaces will be using the system from all over the country. " +
+                    "Over 30 million  electricity bills will be processed per month by this system. " +
                     "Modules for this system are Electricity Meter Reading by Image Capturing, " +
                     "New Connection Application, Consumer Management, Billing, Collection, and " +
                     "Accounting management system.",
                     Responsibilities = @"<ul>
     <li>Involved since the project initialization.</li>
-    <li>Collecting requirements, visits client premises in several locations.</li>
-    <li>Involved writing Software Requiement Specification (SRS).</li>
-    <li>Designed mock UI to present and discuss to the client for requirement clarification.</li>
-    <li>Designed database and corresponding user interface.</li>
+    <li>Collecting requirements and visiting client premises in several locations.</li>
+    <li>Involved in writing Software Requirement Specification (SRS).</li>
+    <li>Designed mock UI to present and discuss with the client for requirement clarification.</li>
+    <li>Designed database and corresponding user interfaces.</li>
     <li>Write back-end and front-end validation and business logic.</li>
     <li>Write unit test cases for critical business rules.</li>
-    <li>Performed research and development (R&D) for electricity meter reading by capturing meter image.</li>
-    <li>Deployed the system to client's data-center (about 20 servers).</li>
+    <li>Performed research and development (R&D) for electricity meter reading by capturing meter images.</li>
+    <li>Deployed the system to the client's data center (about 20 servers).</li>
+    <li>Developed a server manager tool to deploy the published application files to the servers using SSH and SCP.</li>
 </ul>",
 
                     Challenges = @"<ul>
-    <li>Initially the software is developed using SQL server database. 
-        But later client choose to use oracle database. 
-        So a large scale database migration task is performed. 
-        Now the system is workign working fine with the both databases.
+    <li>Initially, the software was developed using the MS SQL server database. 
+        But later, client choose to use the oracle database. So a large-scale database migration task is performed. 
+        Now the system is working fine with both databases.
     </li>
-    <li>Initially the software is developed using .NET Framework 4.5. But later we have migrated to .NET 5</li>
-    <li>Since it a financial system, security was the first priority. 
-        So different network zones (VPN, DMZ) are used for different modules.
-        Thus data synchronization was a challenge.
+    <li>The software was developed using .NET Framework 4.5. But later, we migrated to .NET 6</li>
+    <li>Since it is a financial system, network security is the priority. 
+        So, different network zones (VPN, DMZ) are used for modules. 
+        The data synchronization between zones was a challenge.
     </li>
-    <li>Country's all major banks are connected to this system via VPN. 
-        We have to support them to implement our bill payment API
+    <li>Almost all banks in Bangladesh are connected to this system via VPN. 
+        We have to support them in implementing our bill payment API
     </li>
-    <li>There are lagecy data with different shape for each workspace. We have to migrate them into our system.</li>
+    <li>There are legacy data with a different shape for each workspace. We have to migrate them into our system.</li>
 </ul>",
                 },
                 new() {

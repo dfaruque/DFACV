@@ -303,6 +303,11 @@ namespace DFACV.Models
                             StartDate = new DateTime(2020, 1, 1),
                             Strength = SkillStrength.Intermediate
                         },
+                        new() {
+                            Name = "Jupyter Notebook",
+                            StartDate = new DateTime(2020, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
                     }
                 },
             };

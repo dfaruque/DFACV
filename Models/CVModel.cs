@@ -89,6 +89,11 @@ namespace DFACV.Models
                             Strength = SkillStrength.Advanced
                         },
                         new() {
+                            Name = "Java",
+                            StartDate = new DateTime(2019, 1, 1),
+                            Strength = SkillStrength.Intermediate
+                        },
+                        new() {
                             Name = "Python",
                             StartDate = new DateTime(2019, 1, 1),
                             Strength = SkillStrength.Intermediate

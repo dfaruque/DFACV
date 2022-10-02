@@ -403,7 +403,7 @@ namespace DFACV.Models
                     ClientCity = "Dhaka",
                     ProgrammingLanguages="C#, TypeScript",
                     Databases = "Oracle, Redis",
-                    UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
+                    UsedTechnologies = "ASP.NET Core MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
                     Description = "A large-scale billing system. " +
                     "Over 500 workspaces will be using the system from all over the country. " +

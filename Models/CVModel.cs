@@ -406,7 +406,7 @@ namespace DFACV.Models
                     UsedTechnologies = "ASP.NET Core MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
                     Type = "Web-based",
                     Description = "A large-scale billing system. " +
-                    "Over 500 workspaces will be using the system from all over the country. " +
+                    "Over 2000 employees from over 500 workspaces will be using the system daily from all over the country. " +
                     "Over 30 million  electricity bills will be processed per month by this system. " +
                     "Modules for this system are Electricity Meter Reading by Image Capturing, " +
                     "New Connection Application, Consumer Management, Billing, Collection, and " +
@@ -419,7 +419,10 @@ namespace DFACV.Models
     <li>Designed database and corresponding user interfaces.</li>
     <li>Write back-end and front-end validation and business logic.</li>
     <li>Write unit test cases for critical business rules.</li>
-    <li>Performed research and development (R&D) for electricity meter reading by capturing meter images.</li>
+    <li>Performed research and development (R&D) for electricity meter reading by capturing meter images. 
+        R&D task was performed using python and jupyter notebook. 
+        Later, it was converted to java for intergrating with android app.
+    </li>
     <li>Deployed the system to the client's data center (about 20 servers).</li>
     <li>Developed a server manager tool to deploy the published application files to the servers using SSH and SCP.</li>
 </ul>",

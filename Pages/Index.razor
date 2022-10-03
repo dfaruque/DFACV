@@ -160,11 +160,15 @@
                     <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                     <div class="row clear-both">
                         <div class="col-md-6">
-                            <div class="text-justify">@item.Description</div>
+                            <p class="text-justify">@item.Description</p>
                             @*<div><strong>Client: </strong>@item.ClientName, @item.ClientCity</div>*@
                             @if (!string.IsNullOrEmpty(item.ProjectUrl))
                             {
-                                <div><strong>URL: </strong>@item.ProjectUrl</div>
+                                <p><strong>URL: </strong>@item.ProjectUrl</p>
+                            }
+                            @if (!string.IsNullOrEmpty(item.Challenges))
+                            {
+                                <p><strong>Challenges:</strong>@((MarkupString)item.Challenges)</p>
                             }
                         </div>
                         <div class="col-md-6">
@@ -172,18 +176,14 @@
                             <div><strong>Languages: </strong>@item.ProgrammingLanguages</div>
                             <div><strong>Frameworks: </strong>@item.UsedTechnologies</div>
                             <div><strong>Databases: </strong>@item.Databases</div>
+                            @if (!string.IsNullOrEmpty(item.Responsibilities))
+                            {
+                                <p><strong>Responsibilities:</strong>@((MarkupString)item.Responsibilities)</p>
+                            }
                         </div>
                         @if (!string.IsNullOrEmpty(item.MoreDescription))
                         {
                             <div class="col-md-12">@((MarkupString)item.MoreDescription)</div>
-                        }
-                        @if (!string.IsNullOrEmpty(item.Challenges))
-                        {
-                            <div class="col-md-6"><strong>Challenges:</strong>@((MarkupString)item.Challenges)</div>
-                        }
-                        @if (!string.IsNullOrEmpty(item.Responsibilities))
-                        {
-                            <div class="col-md-6"><strong>Responsibilities:</strong>@((MarkupString)item.Responsibilities)</div>
                         }
 
                     </div>
@@ -316,8 +316,8 @@
                 <h5>4. Serenity.Extra </h5>
                 <div>
                     <p>
-                        It has some extra features on top of the Serenity Platform, 
-                        such as audit logging, theming, reporting grid data inline editing, and some usefull utilities. 
+                        It has some extra features on top of the Serenity Platform,
+                        such as audit logging, theming, reporting grid data inline editing, and some usefull utilities.
                         <br />
                         This repository and nuget package are being maintained by me.
                     </p>

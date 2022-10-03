@@ -423,6 +423,7 @@ namespace DFACV.Models
         R&D task was performed using python and jupyter notebook. 
         Later, it was converted to java for intergrating with android app.
     </li>
+    <li>Implemented two-factor authentication.</li>
     <li>Deployed the system to the client's data center (about 20 servers).</li>
     <li>Developed a server manager tool to deploy the published application files to the servers using SSH and SCP.</li>
 </ul>",

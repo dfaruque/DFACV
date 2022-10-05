@@ -13,7 +13,7 @@ public partial class CVData
         return new() {
             new() {
                 Title = "Integrated Centralized Billing System for Palli Bidyut Samities",
-                Role = "Analyst & Development Lead",
+                Role = "Solution Architect & Development Lead",
                 StartDate = new DateTime(2019, 3, 1),
                 EndDate = null,
                 ClientName = "Bangladesh Rural Electrification Board (BREB)",
@@ -32,25 +32,26 @@ public partial class CVData
     <li>Involved since the project initialization.</li>
     <li>Collecting requirements and visiting client premises in several locations.</li>
     <li>Involved in writing Software Requirement Specification (SRS).</li>
-    <li>Designed mock UI to present and discuss with the client for requirement clarification.</li>
-    <li>Designed database and corresponding user interfaces.</li>
+    <li>Designed databases and corresponding user interfaces.</li>
     <li>Write back-end and front-end validation and business logic.</li>
+    <li>Architecting the solution using the Serenity platform.</li>
     <li>Write unit test cases for critical business rules.</li>
     <li>Performed research and development (R&D) for electricity meter reading by capturing meter images. 
-        R&D task was performed using python and jupyter notebook. 
-        Later, it was converted to java for intergrating with android app.
+        R&D task performed using python and Jupyter Notebook. 
+        Later, it converted to java for integration with the android app.
     </li>
     <li>Implemented two-factor authentication.</li>
-    <li>Deployed the system to the client's data center (about 20 servers).</li>
-    <li>Developed a server manager tool to deploy the published application files to the servers using SSH and SCP.</li>
+    <li>Implemented distributed caching using Redis.</li>
+    <li>Deployed the system to the client's data center (about 20 servers) as a distributed system.</li>
+    <li>Developed a server management tool to deploy the published application files to the servers using SSH and SCP.</li>
 </ul>",
 
                 Challenges = @"<ul>
     <li>Initially, the software was developed using the MS SQL server database. 
-        But later, client choose to use the oracle database. So a large-scale database migration task is performed. 
+        But later, client choose to use the oracle database. So, a large-scale database migration task is performed. 
         Now the system is working fine with both databases.
     </li>
-    <li>The software was developed using .NET Framework 4.5. But later, we migrated to .NET 6</li>
+    <li>The software was developed using .NET Framework 4.x. But later, we migrated to .NET 6</li>
     <li>Since it is a financial system, network security is the priority. 
         So, different network zones (VPN, DMZ) are used for modules. 
         The data synchronization between zones was a challenge.
@@ -74,7 +75,18 @@ public partial class CVData
                 Type = "Web-based",
                 Description = "This is a complete sea port automation system used at Mongla Port. " +
                 "Modules for this system are Container Yard, Transit Shed and Port Billing etc. " +
-                "Integration with ASYCUDA through IGM."
+                "Integration with ASYCUDA through IGM.",
+                Challenges = @"<ul>
+    <li>The port business is a new domain for us. We have to study a lot to understand the requirements.</li>
+    <li>Visual representation of the port yard and locating the cargo inside the port was a challenge.</li>
+    <li>The users did not have much IT knowledge to operate the system. So, implementation was another challenge.</li>
+</ul>",
+                Responsibilities = @"<ul>
+    <li>Designed and develop the end-to-end solution to the requirements.</li>
+    <li>Developed the visual representation of the port yard using the WebGL library (babylon.js).</li>
+    <li>Integrated google maps to locate incoming and outgoing vessels.</li>
+    <li>Import General Manifest (IGM) XML file importing facility.</li>
+</ul>"
             },
             new() {
                 Title = "E-Licensing System",

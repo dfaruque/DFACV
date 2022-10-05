@@ -17,6 +17,7 @@ namespace DFACV.Models
         public List<EducationModel> Educations { get; set; }
         public List<ProjectModel> Projects { get; set; }
         public List<ProjectModel> HobbyProjects { get; set; }
+        public List<ProjectModel> OpenSourceContributions { get; set; }
         public List<AwardModel> Awards { get; set; }
         public List<ContactModel> Contacts { get; set; }
         public List<SocialMediaModel> SocialMedias { get; set; }

@@ -44,6 +44,8 @@ public partial class CVData
 
             HobbyProjects = GetHobbyProjects(),
 
+            OpenSourceContributions = GetOpenSourceContributions(),
+
             Awards = new() {
                 new() {
                     Name = "Performance Award",

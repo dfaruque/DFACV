@@ -133,11 +133,11 @@ public partial class CVData
                                 StartDate = new DateTime(2016, 1, 1),
                                 Strength = SkillStrength.Intermediate
                             },
-                            new() {
-                                Name = "Three.js",
-                                StartDate = new DateTime(2016, 1, 1),
-                                Strength = SkillStrength.Intermediate
-                            },
+                            //new() {
+                            //    Name = "Three.js",
+                            //    StartDate = new DateTime(2016, 1, 1),
+                            //    Strength = SkillStrength.Intermediate
+                            //},
                             new() {
                                 Name = "Angular.js",
                                 StartDate = new DateTime(2016, 1, 1),

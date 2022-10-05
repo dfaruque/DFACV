@@ -20,7 +20,7 @@ public partial class CVData
                 ClientCity = "Dhaka",
                 ProgrammingLanguages="C#, TypeScript",
                 Databases = "Oracle, Redis",
-                UsedTechnologies = "ASP.NET Core MVC, Serenity.is, Dapper, SlikGrid, OpenCV",
+                UsedTechnologies = "ASP.NET Core MVC, Serenity.is, Dapper, SlikGrid, OpenCV, Chart.js",
                 Type = "Web-based",
                 Description = "A large-scale billing system. " +
                 "Over 2000 employees from over 500 workspaces will be using the system daily from all over the country. " +
@@ -71,7 +71,7 @@ public partial class CVData
                 ClientCity = "Mongla, Bagerhat",
                 ProgrammingLanguages="C#, TypeScript",
                 Databases = "SQL Server",
-                UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, Vue.js, WebGL, Babylon.js",
+                UsedTechnologies = "ASP.NET MVC, Serenity.is, Dapper, SlikGrid, Vue.js, WebGL, Babylon.js, Chart.js",
                 Type = "Web-based",
                 Description = "This is a complete sea port automation system used at Mongla Port. " +
                 "Modules for this system are Container Yard, Transit Shed and Port Billing etc. " +
@@ -97,7 +97,7 @@ public partial class CVData
                 ClientCity = "Dhaka",
                 ProgrammingLanguages="C#, TypeScript",
                 Databases = "SQL Server",
-                UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
+                UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs, Chart.js",
                 Type = "Web-based",
                 Description = "Online licensing and approval system for any business entities of " +
                 "Power/Gas/Petroleum Production, Transition or Distribution Companies",

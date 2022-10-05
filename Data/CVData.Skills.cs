@@ -124,6 +124,21 @@ public partial class CVData
                                 Strength = SkillStrength.Advanced
                             },
                             new() {
+                                Name = "Chart.js",
+                                StartDate = new DateTime(2016, 1, 1),
+                                Strength = SkillStrength.Intermediate
+                            },
+                            new() {
+                                Name = "Babylon.js",
+                                StartDate = new DateTime(2016, 1, 1),
+                                Strength = SkillStrength.Intermediate
+                            },
+                            new() {
+                                Name = "Three.js",
+                                StartDate = new DateTime(2016, 1, 1),
+                                Strength = SkillStrength.Intermediate
+                            },
+                            new() {
                                 Name = "Angular.js",
                                 StartDate = new DateTime(2016, 1, 1),
                                 Strength = SkillStrength.Intermediate
@@ -228,11 +243,6 @@ public partial class CVData
                     new() {
                         Name = "OpenCV",
                         StartDate = new DateTime(2018, 1, 1),
-                        Strength = SkillStrength.Intermediate
-                    },
-                    new() {
-                        Name = "Babylon.js",
-                        StartDate = new DateTime(2016, 1, 1),
                         Strength = SkillStrength.Intermediate
                     },
                     new() {

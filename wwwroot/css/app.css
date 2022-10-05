@@ -31,7 +31,7 @@ html, body {
     position: relative;
     display: flex;
     flex-direction: column;
-    page-break-before: always;
+    page-break-after: always;
 }
 
 .sidebar {

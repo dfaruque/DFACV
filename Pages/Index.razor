@@ -151,12 +151,12 @@
 <div class="page m-5">
     <section class="mt-2">
         <h4 class="legend"><i class="fa fa-list"></i> Projects</h4>
-        <div class="list-group list-group-flush">
+        <div class="list-group list-group-flush d-block">
             @{ int projectNumber = 1;}
 
             @foreach (var item in Model.Projects)
             {
-                <div class="list-group-item pl-0" style="break-inside: avoid;">
+                <div class="list-group-item pl-0" style="page-break-inside: avoid;">
                     <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                     <div class="row clear-both">
                         <div class="col-md-6">

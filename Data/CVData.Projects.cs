@@ -23,7 +23,7 @@ public partial class CVData
                 UsedTechnologies = "ASP.NET Core MVC, Serenity.is, Dapper, SlikGrid, OpenCV, Chart.js",
                 Type = "Web-based",
                 Description = "A large-scale billing system. " +
-                "Over 2000 employees from over 500 workspaces will be using the system daily from all over the country. " +
+                "Over 20000 employees from over 500 workspaces will be using the system daily from all over the country. " +
                 "Over 30 million  electricity bills will be processed per month by this system. " +
                 "Modules for this system are Electricity Meter Reading by Image Capturing, " +
                 "New Connection Application, Consumer Management, Billing, Collection, and " +

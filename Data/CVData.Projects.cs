@@ -124,7 +124,7 @@ public partial class CVData
             },
             new() {
                 Title = "Security (User Management) Module",
-                Role = "Main Developer",
+                Role = "Developer",
                 StartDate = new DateTime(2016, 3, 1),
                 EndDate = new DateTime(2016, 6, 30),
                 ClientName = "LGED, BEPZA, SDF and many others",
@@ -153,7 +153,7 @@ public partial class CVData
             },
             new() {
                 Title = "UniERP Business Solutions",
-                Role = "Main Developer",
+                Role = "Developer",
                 StartDate = new DateTime(2014, 11, 1),
                 EndDate = new DateTime(2015, 12, 31),
                 ClientName = "Golden Life Insurance Ltd., Gentle Park | Bismillah Holdings Ltd.",

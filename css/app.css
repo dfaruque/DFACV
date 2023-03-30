@@ -74,7 +74,7 @@ html, body {
     }
 
     .sidebar {
-        max-width: 500px;
+        max-width: 300px;
         border-right: 1px solid;
         border-color: var(--primary);
     }

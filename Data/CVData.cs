@@ -24,7 +24,7 @@ public partial class CVData
             SocialMedias = GetSocialMedias(),
 
             Profile = "Strong planner and problem solver who readily adapts to change, works independently, and exceeds expectations. " +
-            "Begins programming in school life and dreams to become a Software Engineer.",
+            "Began programming in school and dreams of becoming a software engineer.",
 
             Features = GetProfileFeatures(),
 

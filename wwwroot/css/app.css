@@ -8,6 +8,10 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/*@page {
+    size: A4 !important;
+}
+*/
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
@@ -51,7 +55,7 @@ html, body {
     border-bottom: 1px solid;
     border-color: var(--primary);
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 

@@ -10,7 +10,7 @@ html, body {
 
 @page {
     /*size: A4 !important;*/
-    margin: 2cm 1.5cm 0.25cm 1.5cm !important;
+    margin: 2cm 1.25cm 0.5cm 1.25cm !important;
 }
 
 #blazor-error-ui {

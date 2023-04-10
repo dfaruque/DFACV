@@ -123,6 +123,24 @@ public partial class CVData
                 ProjectDoc = "http://bd-iati.github.io/",
             },
             new() {
+                Title = "Purchase Order PDF Data Extraction Tool",
+                Role = "Developer",
+                StartDate = new DateTime(2022, 5, 1),
+                EndDate = new DateTime(2023, 5, 1),
+                ClientName = "Mohammadi Group",
+                ClientCity = "Dhaka",
+                ProgrammingLanguages="C#, TypeScript",
+                Databases = "SQL Server",
+                UsedTechnologies = "PdfPig, Tabula, iTextSharp, WPF, ASP.NET Core MVC, Serenity.is, Dapper, SlikGrid, etc.",
+                Type = "Web and Desktop based",
+                Description = "As part of this project, I designed and developed a tool to simplify " +
+                "the data entry process for purchase orders that are received as PDF files. " +
+                "These PDF files are in different format for each buyer. " +
+                "The tool uses advanced PDF data extraction techniques to automatically extract " +
+                "relevant information from the purchase orders, such as the item name, quantity, unit price, and total cost. " +
+                "This eliminates the need for manual data entry, saving time and reducing errors.",
+            },
+            new() {
                 Title = "Security (User Management) Module",
                 Role = "Developer",
                 StartDate = new DateTime(2016, 3, 1),

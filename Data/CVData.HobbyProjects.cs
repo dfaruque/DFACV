@@ -58,7 +58,10 @@ public partial class CVData
                 StartDate = new DateTime(2008, 1, 1),
                 EndDate = new DateTime(2009, 12, 31),
                 UsedTechnologies = "Visual Basic 6",
-                Description = "This prevents executables (viruses etc.) to spread from USB Disk.",
+                Description = "This is a USB Disk Cleaner tool that helps to prevent the spread of viruses " +
+                "and other malicious executables from USB disks. " +
+                "The tool was designed to scan USB disks for any malicious files and safely remove them " +
+                "before they can infect the user's computer.",
             },
             new() {
                 Title = "Bangla & English Speed Type",
@@ -77,13 +80,7 @@ public partial class CVData
                 "The tool was designed to be user-friendly and easy to use, with a simple interface " +
                 "that allows users to select the files they want to delete. " +
                 "The tool scans the user's computer for temporary files that are no longer needed, " +
-                "such as cache files, log files, and temporary internet files, and safely deletes them. " +
-                "I developed the tool using Visual Basic 6 and integrated it with modern algorithms " +
-                "to ensure that it cleans the computer efficiently and quickly " +
-                "without compromising any important data. " +
-                "The end result was a highly effective and efficient tool that helped users " +
-                "to free up space on their computers, improving their performance " +
-                "and speeding up their systems.",
+                "such as cache files, log files, and temporary internet files, and safely deletes them."
             },
         };
     }

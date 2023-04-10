@@ -68,7 +68,9 @@ public partial class CVData
                 StartDate = new DateTime(2008, 1, 1),
                 EndDate = new DateTime(2009, 12, 31),
                 UsedTechnologies = "Visual Basic 6",
-                Description = "This helps people to increase their Bangla and English typing speed.",
+                Description = "The application is designed to provide users with a fun and " +
+                "interactive way to practice typing, with a variety of exercises and games " +
+                "that are tailored to their skill level.",
             },
             new() {
                 Title = "PC Cleaner",

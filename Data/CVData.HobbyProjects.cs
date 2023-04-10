@@ -16,7 +16,12 @@ public partial class CVData
                 StartDate = new DateTime(2012, 1, 1),
                 EndDate = new DateTime(2014, 1, 1),
                 UsedTechnologies = ".Net Framework 3.5, C#, MS SQL Server",
-                Description = "A rule-based English to Bangla machine translator. It's like a poor man's google translator.",
+                Description = "In this project, I developed a rule-based English to Bangla machine " +
+                "translation system. The system is designed to translate English text into Bangla " +
+                "using a set of rules and algorithms that analyze the grammar and syntax of " +
+                "the English text to produce accurate translations. " +
+                "The system is integrated with a user-friendly interface that allows users to enter " +
+                "the English text they want to translate and receive the translated text in Bangla",
             },
             new() {
                 Title = "Quran Study Tool",
@@ -67,7 +72,18 @@ public partial class CVData
                 StartDate = new DateTime(2007, 1, 1),
                 EndDate = new DateTime(2009, 12, 31),
                 UsedTechnologies = "Visual Basic 6",
-                Description = "Clean up the temporary files that are no longer needed.",
+                Description = "In this project, I developed a PC Cleaner tool that helps to free up space " +
+                "on a user's computer by removing unnecessary temporary files. " +
+                "The tool was designed to be user-friendly and easy to use, with a simple interface " +
+                "that allows users to select the files they want to delete. " +
+                "The tool scans the user's computer for temporary files that are no longer needed, " +
+                "such as cache files, log files, and temporary internet files, and safely deletes them. " +
+                "I developed the tool using Visual Basic 6 and integrated it with modern algorithms " +
+                "to ensure that it cleans the computer efficiently and quickly " +
+                "without compromising any important data. " +
+                "The end result was a highly effective and efficient tool that helped users " +
+                "to free up space on their computers, improving their performance " +
+                "and speeding up their systems.",
             },
         };
     }

@@ -185,12 +185,12 @@ public partial class CVData
             },
             new() {
                 Name = "Mobile-development",
-                IconClass = "mobile",
+                IconClass = "mobile text-large",
                 Items = new() {
                     new() {
                         Name = "Xamarin",
                         StartDate = new DateTime(2018, 1, 1),
-                        Strength = SkillStrength.Beginner
+                        Strength = SkillStrength.Intermediate
                     }
                 }
             },

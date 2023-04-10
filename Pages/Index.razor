@@ -159,7 +159,7 @@
 
             @foreach (var item in Model.Projects)
             {
-                <div class="list-group-item pl-0" style="page-break-inside: avoid;">
+                <div class="list-group-item px-0" style="page-break-inside: avoid;">
                     <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                     <div class="row clear-both">
                         <div class="col-md-6">
@@ -209,7 +209,7 @@
 
             @foreach (var item in Model.HobbyProjects)
             {
-                <div class="list-group-item pl-0">
+                <div class="list-group-item px-0">
                     <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                     <div class="row clear-both">
                         <div class="col-md-12 pr-3">
@@ -239,7 +239,7 @@
 
             @foreach (var item in Model.OpenSourceContributions)
             {
-                <div class="list-group-item pl-0">
+                <div class="list-group-item px-0">
                     <h5>@(projectNumber++). @item.Title </h5>
                     <p>
                         @((MarkupString)item.Description)

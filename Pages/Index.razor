@@ -32,17 +32,17 @@
                         </td>
                     </tr>
                 }
-                @foreach (var item in Model.SocialMedias)
+                @*@foreach (var item in Model.SocialMedias)
                 {
                     <tr>
                         <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
                         <td>/@item.Value</td>
                     </tr>
-                }
+                }*@
             </table>
         </div>
 
-        <section>
+        <section class="mt-4">
             <h4 class="legend"><i class="fa fa-cogs"></i> Skills</h4>
             <dl>
                 @foreach (var skill in Model.Skills)

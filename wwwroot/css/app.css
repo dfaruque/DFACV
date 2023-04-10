@@ -158,6 +158,7 @@ h1.name {
 
 .badge-primary {
     background-color: var(--primary) !important;
+    border-color: white !important;
     -webkit-print-color-adjust: exact;
 }
 

@@ -12,8 +12,8 @@ public partial class CVData
     {
         return new() {
             ExperienceYears + "+ years of professional software development experience and " + ProgrammingExperienceYears + "+ years of programming experience.",
-            "Strong foundation in Object Oriented Programming (<b>OOP</b>) and adherence to software design principles such as <b>SOLID</b>, <b>DRY</b>, and <b>KISS</b>, resulting in the creation of clean and efficient code that is easy to understand and modify.",
             "Experienced in all phases of Software Development Life Cycle (<b>SDLC</b>) including analysis, design, development, testing and implementation of high quality & complex software.",
+            "Strong foundation in Object Oriented Programming (<b>OOP</b>) and adherence to software design principles such as <b>SOLID</b>, <b>DRY</b>, and <b>KISS</b>, resulting in the creation of clean and efficient code that is easy to understand and modify.",
             "Knowledgeable in <b>design patterns</b> such as singleton, repository, dependency injection, and more.",
             "Experience in <b>database design</b>, and <b>performance tuning</b>.",
             //"Works in various sizes of projects small to large scale",

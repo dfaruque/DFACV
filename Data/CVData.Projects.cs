@@ -141,7 +141,7 @@ public partial class CVData
                 "This eliminates the need for manual data entry, saving time and reducing errors.",
             },
             new() {
-                Title = "Security (User Management) Module",
+                Title = "Single-Sign-On (SSO) User Management Module",
                 Role = "Developer",
                 StartDate = new DateTime(2016, 3, 1),
                 EndDate = new DateTime(2016, 6, 30),
@@ -151,8 +151,13 @@ public partial class CVData
                 Databases = "Cross Database (SQL Server/Oracle/MySQL etc.)",
                 UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
                 Type = "Web-based",
-                Description = "This is a cross-database, single-sign-on (SSO) user management module " +
-                "which can be integrated with any project",
+                Description = "In this project, I designed and developed a cross-database single-sign-on (SSO) " +
+                "user management module that can be easily integrated with any project. " +
+                "The module provides a secure and efficient way of managing user accounts across " +
+                "multiple applications, with a single set of login credentials. " +
+                "The module was designed to work with a variety of databases, making it highly flexible " +
+                "and customizable. The end result was a robust, scalable and user-friendly module " +
+                "that improved user management and provided a seamless user experience.",
             },
             new() {
                 Title = "Warehouse and Inventory Management System (WIMS)",

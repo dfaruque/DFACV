@@ -8,10 +8,11 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/*@page {
-    size: A4 !important;
+@page {
+    /*size: A4 !important;*/
+    margin: 2cm 1.5cm 0.25cm 1.5cm !important;
 }
-*/
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
@@ -70,6 +71,12 @@ html, body {
 
 .hide {
     display: none;
+}
+
+@media print {
+    .top-row, .top-row-sidebar {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 641px) {

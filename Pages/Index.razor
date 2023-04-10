@@ -212,14 +212,14 @@
                 <div class="list-group-item pl-0">
                     <h5>@(projectNumber++). @item.Title <small class="period"><i class="fa fa-calendar"></i> @item.Period</small></h5>
                     <div class="row clear-both">
-                        <div class="col-md-6 pr-3">
+                        <div class="col-md-12 pr-3">
                             <div class="text-justify">@item.Description</div>
                             @if (!string.IsNullOrEmpty(item.ProjectUrl))
                             {
                                 <div><strong>URL: </strong>@item.ProjectUrl</div>
                             }
                         </div>
-                        <div class="col-md-6 pl-3">
+                        <div class="col-md-12 pl-3">
                             <div><strong>Technologies: </strong>@item.UsedTechnologies</div>
                         </div>
                     </div>

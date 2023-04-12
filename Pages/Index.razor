@@ -8,7 +8,7 @@
             <h4 class="function-title text-secondary">@Model.FunctionTitle</h4>
         </div>
 
-        <div class="photo mb-3">
+        <div class="photo mb-2">
             <img src="images/photo-150x170.jpg" alt="Photo" />
         </div>
 
@@ -47,7 +47,7 @@
             <dl>
                 @foreach (var skill in Model.Skills)
                 {
-                    <dt class="skill-group-name mt-3"><i class="fa fa-@skill.IconClass"></i> @skill.Name</dt>
+                    <dt class="skill-group-name"><i class="fa fa-@skill.IconClass"></i> @skill.Name</dt>
                     <dd>
                         @foreach (var item in skill.Items)
                         {
@@ -139,7 +139,7 @@
                     @foreach (var item in Model.Educations.Take(2))
                     {
                         <li>
-                            <h5>@item.Title <small class="period"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small></h5>
+                            <h5><small class="period"><i class="fa fa-calendar"></i> @item.StartYear - @item.EndYear</small>@item.Title</h5>
                             <div class="clear-both">@item.InstituteName, @item.City</div>
                             <div>@item.Result</div>
                         </li>

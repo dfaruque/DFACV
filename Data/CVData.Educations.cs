@@ -12,7 +12,7 @@ public partial class CVData
     {
         return new() {
             new() {
-                Title = "Masters in Computer Science and Engineering (CSE)",
+                Title = "Masters in Computer Science and Engineering (M.Sc. in CSE)",
                 InstituteName = "University of Information Technology and Sciences (UITS)",
                 City = "Dhaka",
                 StartDate = new DateTime(2021, 9, 1),
@@ -20,7 +20,7 @@ public partial class CVData
                 Result = "Running"
             },
             new() {
-                Title = "Bachelor in Computer Science and Engineering (CSE)",
+                Title = "Bachelor in Computer Science and Engineering (B.Sc. in CSE)",
                 InstituteName = "University of Information Technology and Sciences (UITS)",
                 City = "Dhaka",
                 StartDate = new DateTime(2010, 9, 1),

@@ -20,7 +20,7 @@ public partial class CVData
                 EndDate = null,
                 Description = "<div>→ Working closely with project managers and clients.</div>" +
                 "<div>→ Collecting client requirements and converting them to technical solutions.</div>" +
-                "<div>→ As a project development lead, help juniors understand and perform their tasks.</div>"
+                "<div>→ As a development lead, help juniors understand and perform their tasks.</div>"
             },
             new() {
                 Title = "Software Engineer",

@@ -17,7 +17,7 @@ public partial class CVData
             "Knowledgeable in <b>design patterns</b> such as singleton, repository, dependency injection, and more.",
             "Experience in <b>database design</b>, and <b>performance tuning</b>.",
             //"Works in various sizes of projects small to large scale",
-            "Knowledgeable in preventing <b>web security</b> threats and attacks such as XSRF/CSRF, XSS, SQL Injection, DDoS attacks, and more, ensuring that applications are secure and reliable.",
+            //"Knowledgeable in preventing <b>web security</b> threats and attacks such as XSRF/CSRF, XSS, SQL Injection, DDoS attacks, and more, ensuring that applications are secure and reliable.",
             "Experienced in <b>RESTful API</b> and <b>JWT.</b>",
             "Familiarity with <b>image processing</b> and <b>computer vision</b>, allowing for the creation of solutions that process visual data in innovative ways.",
             "Capable of <b>extracting</b> and <b>transforming</b> data from various file types, including Image, PDF, and Excel, to streamline workflows and increase productivity.",

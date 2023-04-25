@@ -57,7 +57,7 @@ public partial class CVData
 </ul>",
             },
             new() {
-                Title = "Open CV Playgound",
+                Title = "Open CV Playground",
                 StartDate = new DateTime(2020, 6, 1),
                 Description = @"A playground app for testing algorithms in OpenCV",
                 ProjectSource= "https://github.com/rexcardan/OpenCVPlaygound",
@@ -71,11 +71,11 @@ public partial class CVData
                 Description = @"It has some extra features on top of the Serenity Platform,
                     such as audit logging, theming, reporting, grid data inline editing, and some usefull utilities.
                     <br />
-                    <div><strong>Nuget: </strong><a class=""text-decoration-none"" href=""https://www.nuget.org/packages/Serenity.Extra"">https://www.nuget.org/packages/Serenity.Extra</a></div>
+                    <div><strong>NuGet: </strong><a class=""text-decoration-none"" href=""https://www.nuget.org/packages/Serenity.Extra"">https://www.nuget.org/packages/Serenity.Extra</a></div>
 ",
                 ProjectSource= "https://github.com/dfaruque/Serenity.Extra",
                 Responsibilities = @"<ul>
-    <li>This repository and nuget package are being maintained by me</li>
+    <li>This repository and NuGet package are being maintained by me</li>
 </ul>",
             }
         };

@@ -97,7 +97,7 @@ public partial class CVData
                 ClientCity = "Dhaka",
                 ProgrammingLanguages="C#, TypeScript",
                 Databases = "SQL Server",
-                UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs, Chart.js",
+                UsedTechnologies = "ASP.NET MVC, Serenity.is, Vue.js, Chart.js",
                 Type = "Web-based",
                 Description = "Online licensing and approval system for any business entities of " +
                 "Power/Gas/Petroleum Production, Transition, or Distribution Companies",
@@ -112,7 +112,7 @@ public partial class CVData
                 ClientCity = "Dhaka",
                 ProgrammingLanguages="C#, TypeScript",
                 Databases = "SQL Server, RavenDB",
-                UsedTechnologies = "ASP.NET MVC, Entity Framework, AngularJs",
+                UsedTechnologies = "ASP.NET MVC, Entity Framework, Angular.js",
                 Type = "Web-based",
                 Description = "This project integrates AIMS Bangladesh with IATI where Development partners " +
                 "publish their data on aid activities through the International Aid Transparency Initiative (IATI). " +
@@ -149,7 +149,7 @@ public partial class CVData
                 ClientCity = "Dhaka",
                 ProgrammingLanguages="C#, TypeScript",
                 Databases = "Cross Database (SQL Server/Oracle/MySQL etc.)",
-                UsedTechnologies = "ASP.NET MVC, Serenity.is, Vuejs",
+                UsedTechnologies = "ASP.NET MVC, Serenity.is, Vue.js",
                 Type = "Web-based",
                 Description = "In this project, I designed and developed a cross-database single-sign-on (SSO) " +
                 "user management module that can be easily integrated with any project. " +
@@ -204,7 +204,7 @@ public partial class CVData
                 "and chatting facility.",
                 MoreDescription = @"<b>Features:</b> The features are applicable to a specific user or group of users.
 <ul>
-<li><b>Block Applications</b>– Users can run only those apps that are assigned to them and all others apps are blocked. So they cannot waste their office time by playing games or watching movies.</li>
+<li><b>Block Applications</b>– Users can run only those apps that are assigned to them and all others apps are blocked. So, they cannot waste their office time by playing games or watching movies.</li>
 <li><b>Block websites</b>– This feature helps you to block the specific websites that are used to pass time such as Facebook and Twitter etc.</li>
 <li><b>Prevent access to specific hard disk drives</b>– Users can only access those disk drives that are assigned to them. If a user has only d: and f: drives then he can only access these drives.</li>
 <li><b>Restrict from using USB drive/Pen drive/CD-DVD drive</b>– USB drives are used to transfer files from one PC to another PC. Prevent using these drives; you can save valuable data/files.</li>

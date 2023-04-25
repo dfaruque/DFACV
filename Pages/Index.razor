@@ -101,7 +101,7 @@
                     <dd>
                         @foreach (var item in skill.Items)
                         {
-                            <span class="badge badge-primary badge-skill badge-skill-@item.Strength">@item.Name</span>
+                            <span class="badge badge-primary badge-skill badge-skill-@item.Strength">&nbsp;@item.Name&nbsp;</span>
                         }
                     </dd>
 
@@ -112,7 +112,7 @@
                                 <strong class="skill-subgroup-name"><i class="fa fa-@subItem.IconClass"></i> @subItem.Name:</strong>
                                 @foreach (var item in subItem.Items)
                                 {
-                                    <span class="badge badge-primary badge-skill badge-skill-@item.Strength">@item.Name</span>
+                                    <span class="badge badge-primary badge-skill badge-skill-@item.Strength">&nbsp;@item.Name&nbsp;</span>
                                 }
                             </dd>
                         }

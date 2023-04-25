@@ -46,7 +46,7 @@ html, body {
 }
 
 .sidebar {
-    padding: 15px;
+    padding-left: 15px;
     z-index: 2;
 }
 
@@ -96,7 +96,7 @@ html, body {
 
     .sidebar {
         max-width: 300px;
-        border-right: 1px solid;
+        border-left: 1px solid;
         border-color: var(--primary);
     }
 

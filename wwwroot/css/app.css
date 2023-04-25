@@ -58,7 +58,7 @@ html, body {
         border-radius: 10%;
     }
 
-.top-row, .top-row-sidebar {
+.top-row {
     border-bottom: 1px solid;
     border-color: var(--primary);
     text-align: center;
@@ -80,7 +80,7 @@ html, body {
 }
 
 @media print {
-    .top-row, .top-row-sidebar {
+    .top-row {
         margin-top: 0;
     }
 
@@ -104,10 +104,6 @@ html, body {
         z-index: 1;
     }
 
-    .top-row-sidebar {
-        display: none;
-    }
-
     .function-title {
         /*letter-spacing: 2px;*/
         font-family: 'cascadia code';
@@ -121,14 +117,6 @@ html, body {
 }
 
 @media (max-width: 641px) {
-    .top-row-sidebar {
-        display: block;
-    }
-
-    .top-row {
-        display: none;
-    }
-
     .period {
         float: left;
         padding-top: .5rem !important;

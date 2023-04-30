@@ -2,6 +2,7 @@
 
 :root {
     --primary: #008080;
+    --skill-color: #006464
 }
 
 html {
@@ -155,8 +156,6 @@ h1.name {
 }
 
 .badge-primary {
-    background-color: var(--primary) !important;
-    /*border-color: white !important;*/
     -webkit-print-color-adjust: exact;
 }
 
@@ -170,6 +169,11 @@ h1.name {
 .badge-skill {
     margin: .15rem;
     padding: .25em;
+    background-color: unset !important;
+    color: var(--skill-color) !important;
+    border: 1px solid;
+    border-color: var(--skill-color) !important;
+    border-radius: 0.7rem;
 }
 
 .badge-skill-1, .badge-skill-Beginner {

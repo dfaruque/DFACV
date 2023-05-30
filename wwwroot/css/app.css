@@ -167,13 +167,12 @@ h1.name {
 }
 
 .badge-skill {
-    margin: .15rem;
-    padding: .25em;
+    margin: .15rem 0;
     background-color: unset !important;
     color: var(--skill-color) !important;
     border: 1px solid;
     border-color: var(--skill-color) !important;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
 }
 
 .badge-skill-1, .badge-skill-Beginner {

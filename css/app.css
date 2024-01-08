@@ -159,6 +159,7 @@ h1.name {
     color: unset !important;
     border: 1px solid;
     padding-top: .35em;
+    letter-spacing: 1px;
 }
 
 .badge-skill {

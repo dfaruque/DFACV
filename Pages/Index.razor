@@ -17,7 +17,7 @@
 
             <section class="mt-3">
                 <h4 class="legend"><i class="fa fa-comment-o"></i> Profile</h4>
-                <div class="pl-4 pb-2 text-justify">@Model.Profile</div>
+                @*<div class="pl-4 pb-2 text-justify">@Model.Profile</div>*@
                 <div class="text-justify pl-4">
                     @foreach (var item in Model.Features)
                     {
@@ -63,8 +63,10 @@
             <img src="images/photo-150x170.jpg" alt="Photo" />
         </div>
 
-        <div class="table table-borderless table-sm">
-            <table>
+        <section class="mt-4">
+            <h4 class="legend"><i class="fa fa-address-book-o"></i> Contacts</h4>
+
+            <table class="table table-borderless table-sm">
                 @foreach (var item in Model.Contacts)
                 {
                     <tr>
@@ -84,14 +86,14 @@
                     </tr>
                 }
                 @*@foreach (var item in Model.SocialMedias)
-                    {
-                        <tr>
-                            <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
-                            <td>/@item.Value</td>
-                        </tr>
-                    }*@
+            {
+                <tr>
+                    <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
+                    <td>/@item.Value</td>
+                </tr>
+            }*@
             </table>
-        </div>
+        </section>
 
         <section class="mt-4">
             <h4 class="legend"><i class="fa fa-cogs"></i> Skills</h4>

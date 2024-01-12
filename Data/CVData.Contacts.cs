@@ -17,7 +17,7 @@ public partial class CVData
             //},
             new() {
                 Type = ContactType.Location,
-                Value = "Dhaka, Bangladesh"
+                Value = "Khilkhet, Dhaka, Bangladesh"
             },
             new() {
                 Type = ContactType.Email,

@@ -12,6 +12,17 @@ public partial class CVData
     {
         return new() {
             new() {
+                Title = "Quran PWA",
+                StartDate = new DateTime(2024, 1, 1),
+                EndDate = new DateTime(2014, 4, 30),
+                UsedTechnologies = "HTML, CSS, Typescript, React.js, Bootstrap 5, Vite, PWA",
+                Description = "Developed an offline-accessible Progressive Web App (PWA) to provide access to the Holy Quran using modern web technologies. " +
+                "Integrated Quranic Arabic texts, translations, tafsirs, and recitations sourced from diverse references. " +
+                "Users can conveniently navigate through the Quranic text based on various partitions such as Sura, Juz, Ruku, and more within the application.",
+                ProjectUrl = "https://quranpwa.github.io",
+                ProjectSource = "https://github.com/quranpwa/quranpwa"
+            },
+            new() {
                 Title = "English to Bangla Machine Translator",
                 StartDate = new DateTime(2012, 1, 1),
                 EndDate = new DateTime(2014, 1, 1),

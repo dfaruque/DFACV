@@ -56,15 +56,15 @@ public partial class CVData
     <li>Oracle 12C supports object name max length = 128</li>
 </ul>",
             },
-            new() {
-                Title = "Open CV Playground",
-                StartDate = new DateTime(2020, 6, 1),
-                Description = @"A playground app for testing algorithms in OpenCV",
-                ProjectSource= "https://github.com/rexcardan/OpenCVPlaygound",
-                Responsibilities = @"<ul>
-    <li>Updated OpenCvSharp to 4.4.0</li>
-</ul>",
-            },
+//            new() {
+//                Title = "Open CV Playground",
+//                StartDate = new DateTime(2020, 6, 1),
+//                Description = @"A playground app for testing algorithms in OpenCV",
+//                ProjectSource= "https://github.com/rexcardan/OpenCVPlaygound",
+//                Responsibilities = @"<ul>
+//    <li>Updated OpenCvSharp to 4.4.0</li>
+//</ul>",
+//            },
             new() {
                 Title = "Serenity.Extra",
                 StartDate = new DateTime(2017, 6, 1),

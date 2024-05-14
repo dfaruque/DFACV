@@ -69,7 +69,7 @@ public partial class CVData
                 Title = "Serenity.Extra",
                 StartDate = new DateTime(2017, 6, 1),
                 Description = @"It has some extra features on top of the Serenity Platform,
-                    such as audit logging, theming, reporting, grid data inline editing, and some usefull utilities.
+                    such as audit logging, theming, reporting, grid data inline editing, and some useful utilities.
                     <br />
                     <div><strong>NuGet: </strong><a class=""text-decoration-none"" href=""https://www.nuget.org/packages/Serenity.Extra"">https://www.nuget.org/packages/Serenity.Extra</a></div>
 ",

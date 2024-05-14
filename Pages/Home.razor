@@ -86,12 +86,12 @@
                     </tr>
                 }
                 @*@foreach (var item in Model.SocialMedias)
-            {
-                <tr>
-                    <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
-                    <td>/@item.Value</td>
-                </tr>
-            }*@
+                    {
+                        <tr>
+                            <td><i class="fa fa-lg fa-@item.IconClass text-primary"></i></td>
+                            <td>/@item.Value</td>
+                        </tr>
+                    }*@
             </table>
         </section>
 
@@ -261,20 +261,20 @@
     </section>
 
     @*<section class="mt-2 hide">
-        <h4 class="legend"><i class="fa fa-link"></i> References</h4>
-        <div class="row pl-4">
-            @foreach (var item in Model.References)
-            {
-                <div class="col-md-5">
-                    <h5>@item.Name</h5>
-                    <div>@item.Position</div>
-                    <div>@item.Organization</div>
-                    <div>@item.Email</div>
-                    <div>@item.Contact</div>
-                </div>
-            }
-        </div>
-    </section>*@
+            <h4 class="legend"><i class="fa fa-link"></i> References</h4>
+            <div class="row pl-4">
+                @foreach (var item in Model.References)
+                {
+                    <div class="col-md-5">
+                        <h5>@item.Name</h5>
+                        <div>@item.Position</div>
+                        <div>@item.Organization</div>
+                        <div>@item.Email</div>
+                        <div>@item.Contact</div>
+                    </div>
+                }
+            </div>
+        </section>*@
 </div>
 
 @code{

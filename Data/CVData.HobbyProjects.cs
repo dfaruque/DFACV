@@ -13,8 +13,8 @@ public partial class CVData
         return new() {
             new() {
                 Title = "Quran PWA",
-                StartDate = new DateTime(2024, 1, 1),
-                EndDate = new DateTime(2014, 4, 30),
+                StartDate = new DateTime(2024, 2, 24),
+                EndDate = new DateTime(2014, 5, 12),
                 UsedTechnologies = "HTML, CSS, Typescript, React.js, Bootstrap 5, Vite, PWA",
                 Description = "Developed an offline-accessible Progressive Web App (PWA) to provide access to the Holy Quran using modern web technologies. " +
                 "Integrated Quranic Arabic texts, translations, tafsirs, and recitations sourced from diverse references. " +

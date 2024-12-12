@@ -29,8 +29,8 @@ public partial class CVData
                 City = "Dhaka",
                 StartDate = new DateTime(2018, 1, 1),
                 EndDate = new DateTime(2013, 12, 31),
-                Description = "<div>• Working closely with project managers and clients from various business domain.</div>" +
-                "<div>• Analyzed and translated complex client requirements into scalable technical solutions, resulting in a 40% reduction in development time and a 25% increase in customer satisfaction.</div>" +
+                Description = //"<div>• Working closely with project managers and clients from various business domain.</div>" +
+                "<div>• Analyzed and translated complex client requirements into scalable technical solutions.</div>" +
                 "<div>• As a development lead, help juniors understand and perform their tasks.</div>"
             },
             new() {
@@ -40,7 +40,7 @@ public partial class CVData
                 City = "Dhaka",
                 StartDate = new DateTime(2016, 1, 1),
                 EndDate = new DateTime(2017, 12, 31),
-                Description = "<div>• Worked closely with senior software engineers and analysts.</div>" +
+                Description = //"<div>• Worked closely with senior software engineers and analysts.</div>" +
                 "<div>• Introduced a new framework (Serenity) in the company which reduces 50% development time.</div>" +
                 "<div>• Recognized with a performance award for outstanding contributions and exceptional results.</div>"
             },

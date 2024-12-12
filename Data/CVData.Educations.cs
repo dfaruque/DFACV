@@ -11,14 +11,14 @@ public partial class CVData
     private static List<EducationModel> GetEducations()
     {
         return new() {
-            new() {
-                Title = "Masters in Computer Science and Engineering (M.Sc. in CSE)",
-                InstituteName = "University of Information Technology and Sciences (UITS)",
-                City = "Dhaka",
-                StartDate = new DateTime(2021, 9, 1),
-                //EndDate = new DateTime(2023, 8, 30),
-                Result = "Running"
-            },
+            //new() {
+            //    Title = "Masters in Computer Science and Engineering (M.Sc. in CSE)",
+            //    InstituteName = "University of Information Technology and Sciences (UITS)",
+            //    City = "Dhaka",
+            //    StartDate = new DateTime(2021, 9, 1),
+            //    //EndDate = new DateTime(2023, 8, 30),
+            //    Result = "Running"
+            //},
             new() {
                 Title = "Bachelor in Computer Science and Engineering (B.Sc. in CSE)",
                 InstituteName = "University of Information Technology and Sciences (UITS)",

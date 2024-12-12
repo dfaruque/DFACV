@@ -42,8 +42,7 @@ public partial class CVData
                 EndDate = new DateTime(2017, 12, 31),
                 Description = "<div>• Worked closely with senior software engineers and analysts.</div>" +
                 "<div>• Introduced a new framework (Serenity) in the company which reduces 50% development time.</div>" +
-                "<div>• Understood business and developed accordingly.</div>" +
-                "<div>• Got a performance award!</div>"
+                "<div>• Recognized with a performance award for outstanding contributions and exceptional results.</div>"
             },
             new() {
                 Title = "Software Developer",

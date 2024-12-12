@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DFACV",
   "resources": {
-    "hash": "sha256-++POengI5aHAxbYmaa9/uLyMHF5OptuP4R0JrVDgZMk=",
+    "hash": "sha256-rxoZrijpgelyeqs9VkGwb+Q36YFpa7/fDBGaUk/WVXw=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.n1sf6xr5tz.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "DFACV.wasm": "sha256-sT5T9aS6FqbIeGHEpCfRnZJKCj+Ae/Oc/m2pyd/Ln3A=",
+      "DFACV.wasm": "sha256-wZvvcqjmKL1vikKgJfNyxffYgufj/7qCfWBcP99E+YI=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-ic5geBjsx+hgT694qmHAzqV2yTgi//tc9rL7K9u0jmk=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-o3dUFaYZ86Ri9/f+gxNOJf4LxhqxORvIZM29feN1GHk=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-kZSJV9ON9UL924dyAnAeoFHZXExv5A/OCxTHlMc+3fQ=",

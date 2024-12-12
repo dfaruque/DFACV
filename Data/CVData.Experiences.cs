@@ -12,13 +12,24 @@ public partial class CVData
     {
         return new() {
             new() {
+                Title = "Principal Software Engineer",
+                CompanyName = "TechnoVista Limited",
+                CompanyWebUrl = "https://technovista.com.bd/",
+                City = "Dhaka",
+                StartDate = new DateTime(2014, 1, 1),
+                EndDate = null,
+                Description = "<div>• Analyzed project requirements, defined task breakdowns, and provided accurate time estimations.</div>" +
+                "<div>• Delegated tasks effectively, ensuring optimal alignment with team strengths, and managed project timelines to meet deliverables.</div>" +
+                "<div>• Devised innovative solutions to address complex challenges, driving project success and enhancing team efficiency.</div>"
+            },
+            new() {
                 Title = "Senior Software Engineer",
                 CompanyName = "TechnoVista Limited",
                 CompanyWebUrl = "https://technovista.com.bd/",
                 City = "Dhaka",
                 StartDate = new DateTime(2018, 1, 1),
-                EndDate = null,
-                Description = "<div>• Working closely with project managers and clients from various bussiness domain.</div>" +
+                EndDate = new DateTime(2013, 12, 31),
+                Description = "<div>• Working closely with project managers and clients from various business domain.</div>" +
                 "<div>• Analyzed and translated complex client requirements into scalable technical solutions, resulting in a 40% reduction in development time and a 25% increase in customer satisfaction.</div>" +
                 "<div>• As a development lead, help juniors understand and perform their tasks.</div>"
             },
@@ -30,7 +41,7 @@ public partial class CVData
                 StartDate = new DateTime(2016, 1, 1),
                 EndDate = new DateTime(2017, 12, 31),
                 Description = "<div>• Worked closely with senior software engineers and analysts.</div>" +
-                "<div>• Introduced a new framework (Serenity) in the company which reduces 50% developmnet time.</div>" +
+                "<div>• Introduced a new framework (Serenity) in the company which reduces 50% development time.</div>" +
                 "<div>• Understood business and developed accordingly.</div>" +
                 "<div>• Got a performance award!</div>"
             },

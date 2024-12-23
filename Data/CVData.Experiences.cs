@@ -16,7 +16,7 @@ public partial class CVData
                 CompanyName = "TechnoVista Limited",
                 CompanyWebUrl = "https://technovista.com.bd/",
                 City = "Dhaka",
-                StartDate = new DateTime(2014, 1, 1),
+                StartDate = new DateTime(2024, 1, 1),
                 EndDate = null,
                 Description = "<div>• Analyzed project requirements, defined task breakdowns, and provided accurate time estimations.</div>" +
                 "<div>• Delegated tasks effectively, ensuring optimal alignment with team strengths, and managed project timelines to meet deliverables.</div>" +
@@ -28,7 +28,7 @@ public partial class CVData
                 CompanyWebUrl = "https://technovista.com.bd/",
                 City = "Dhaka",
                 StartDate = new DateTime(2018, 1, 1),
-                EndDate = new DateTime(2013, 12, 31),
+                EndDate = new DateTime(2023, 12, 31),
                 Description = //"<div>• Working closely with project managers and clients from various business domain.</div>" +
                 "<div>• Analyzed and translated complex client requirements into scalable technical solutions.</div>" +
                 "<div>• As a development lead, help juniors understand and perform their tasks.</div>"

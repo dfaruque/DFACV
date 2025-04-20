@@ -82,7 +82,7 @@ public partial class CVData
     <li>The users did not have much IT knowledge to operate the system. So, implementation was another challenge.</li>
 </ul>",
                 Responsibilities = @"<ul>
-    <li>Designed and develop the end-to-end solution to the requirements.</li>
+    <li>Designed and developed an end-to-end solution based on the requirements.</li>
     <li>Developed the visual representation of the port yard using the WebGL library (babylon.js).</li>
     <li>Integrated google maps to locate incoming and outgoing vessels.</li>
     <li>Import General Manifest (IGM) XML file importing facility.</li>

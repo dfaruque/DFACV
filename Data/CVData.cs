@@ -17,7 +17,7 @@ public partial class CVData
         return new()
         {
             Name = "Deowan Faruque Ahamed",
-            FunctionTitle = "Senior Software Engineer | Full-stack .NET Developer",
+            FunctionTitle = "Principal Software Engineer | Full-stack .NET Developer",
 
             Contacts = GetContacts(),
 

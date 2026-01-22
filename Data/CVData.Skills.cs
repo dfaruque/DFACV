@@ -31,11 +31,6 @@ public partial class CVData
                         Strength = SkillStrength.Advanced
                     },
                     new() {
-                        Name = "Java",
-                        StartDate = new DateTime(2019, 1, 1),
-                        Strength = SkillStrength.Intermediate
-                    },
-                    new() {
                         Name = "Python",
                         StartDate = new DateTime(2019, 1, 1),
                         Strength = SkillStrength.Intermediate
@@ -58,6 +53,11 @@ public partial class CVData
                     },
                     new() {
                         Name = "MySQL",
+                        StartDate = new DateTime(2012, 1, 1),
+                        Strength = SkillStrength.Intermediate
+                    },
+                    new() {
+                        Name = "PostgreSQL",
                         StartDate = new DateTime(2012, 1, 1),
                         Strength = SkillStrength.Intermediate
                     },
@@ -103,36 +103,36 @@ public partial class CVData
                         Name = "Front-end",
                         IconClass = "window-maximize",
                         Items = new() {
-                            new() {
-                                Name = "HTML",
-                                StartDate = new DateTime(2012, 1, 1),
-                                Strength = SkillStrength.Advanced
-                            },
-                            new() {
-                                Name = "CSS",
-                                StartDate = new DateTime(2012, 1, 1),
-                                Strength = SkillStrength.Advanced
-                            },
-                            new() {
-                                Name = "jQuery",
-                                StartDate = new DateTime(2012, 1, 1),
-                                Strength = SkillStrength.Advanced
-                            },
-                            new() {
-                                Name = "Bootstrap.css",
-                                StartDate = new DateTime(2016, 1, 1),
-                                Strength = SkillStrength.Advanced
-                            },
-                            new() {
-                                Name = "Chart.js",
-                                StartDate = new DateTime(2016, 1, 1),
-                                Strength = SkillStrength.Intermediate
-                            },
-                            new() {
-                                Name = "Babylon.js",
-                                StartDate = new DateTime(2016, 1, 1),
-                                Strength = SkillStrength.Intermediate
-                            },
+                            //new() {
+                            //    Name = "HTML",
+                            //    StartDate = new DateTime(2012, 1, 1),
+                            //    Strength = SkillStrength.Advanced
+                            //},
+                            //new() {
+                            //    Name = "CSS",
+                            //    StartDate = new DateTime(2012, 1, 1),
+                            //    Strength = SkillStrength.Advanced
+                            //},
+                            //new() {
+                            //    Name = "jQuery",
+                            //    StartDate = new DateTime(2012, 1, 1),
+                            //    Strength = SkillStrength.Advanced
+                            //},
+                            //new() {
+                            //    Name = "Bootstrap.css",
+                            //    StartDate = new DateTime(2016, 1, 1),
+                            //    Strength = SkillStrength.Advanced
+                            //},
+                            //new() {
+                            //    Name = "Chart.js",
+                            //    StartDate = new DateTime(2016, 1, 1),
+                            //    Strength = SkillStrength.Intermediate
+                            //},
+                            //new() {
+                            //    Name = "Babylon.js",
+                            //    StartDate = new DateTime(2016, 1, 1),
+                            //    Strength = SkillStrength.Intermediate
+                            //},
                             //new() {
                             //    Name = "Three.js",
                             //    StartDate = new DateTime(2016, 1, 1),
@@ -167,13 +167,13 @@ public partial class CVData
                 IconClass = "desktop",
                 Items = new() {
                     new() {
-                        Name = "WinForms",
-                        StartDate = new DateTime(2010, 1, 1),
+                        Name = "WPF",
+                        StartDate = new DateTime(2014, 1, 1),
                         Strength = SkillStrength.Intermediate
                     },
                     new() {
-                        Name = "WPF",
-                        StartDate = new DateTime(2014, 1, 1),
+                        Name = "WinForms",
+                        StartDate = new DateTime(2010, 1, 1),
                         Strength = SkillStrength.Intermediate
                     },
                     new() {
@@ -188,7 +188,7 @@ public partial class CVData
                 IconClass = "mobile text-large",
                 Items = new() {
                     new() {
-                        Name = "Xamarin",
+                        Name = "Progressive Web App (PWA)",
                         StartDate = new DateTime(2018, 1, 1),
                         Strength = SkillStrength.Intermediate
                     }
@@ -227,7 +227,7 @@ public partial class CVData
                     new() {
                         Name = "Entity Framework",
                         StartDate = new DateTime(2016, 1, 1),
-                        Strength = SkillStrength.Advanced
+                        Strength = SkillStrength.Intermediate
                     }
                 }
             },
